@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style_Desktop.css">
+    <link rel="icon" type="image" href="img/mdi_education-outline.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/nathco/Gilroy@1.1/webfonts/gilroy.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap" rel="stylesheet">
+
+
+    <title>BilimAly</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/mdi_education-outline.png" alt="#">
+            <h1>BilimAly</h1>
+        </div>
+
+        <div class="menu">
+            <a href="#">Как проходить обучение</a>
+            <a href="#">Курсы</a>
+            <a href="#">Предопаватели</a>
+            <a href="#" class="last_link">Отзывы</a>
+        </div>
+
+
+        <div class="btn_entrance">
+            <a href="" class="btn_entrance_main">
+                <p>Войти</p>
+                <img src="img/Vector.png" alt="">
+            </a>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="content">
+            <div class="left_content">
+                <h1 class="title_left_content">С нуля баллов до <br>
+                    136 баллов по <b> ЕНТ</b>
+                </h1>
+
+                <p class="subtitle_left_content">Таких высоких результатов достигли <br>
+                    наши ученики с нулевой знаниями в ЕНТ обучаясь у нас с особенными методами.
+                </p>
+
+                <div class="btn_left_content">
+                    <a href="#trial">Пробный урок</a>
+                </div>
+
+            </div>
+            <div class="right_content">
+                <div class="bg_colour_green">
+                </div>
+
+
+                <img class="left_btn" onclick="prevSlide()" id="l_b" src="img/Frame 200.png" alt="">
+
+                <div class="all_video_elements">
+                    <div class="img_right_content">
+                        <!-- <img src="img/boy.png"  id="slide-image" alt=""> -->
+                        <video class="first_video" id="slide-video" src="video/video1_about result.mp4"
+                            controls></video>
+
+                    </div>
+
+                    <div class="img2_right_content">
+
+                        <!-- <img src="img/boy.png"   alt=""> -->
+                        <video class="second_video" id="slide-video" src="video/video2_adout result.mp4"></video>
+
+                    </div>
+
+
+
+                </div>
+                <div class="text_front_video">
+                    Результаты наших учеников <br>
+                    и отзывы от них
+                </div>
+
+
+
+                <img class="right_btn" onclick="nextSlide()" id="r_b" src="img/Frame 201.png" alt="">
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <section class="process">
+        <div class="pro">
+
+
+            <div class="top_process">
+                <div class="title_process">
+                    <h1>Как проходить обучение</h1>
+
+                </div>
+                <div class="subtitle_process">
+                    <p>Мы используем современные методики обучения, <br> которая позволяет эффективнее усваивать
+                        материал</p>
+                </div>
+
+            </div>
+            <div class="button_process">
+
+                <div class="video_process">
+                    <video src="video/istockphoto-1151608282-640_adpp_is.mp4" controls></video>
+                </div>
+
+                <div class="study_process">
+
+                    <div class="text">
+
+                        <img src="img/1.png" alt="">
+
+                        <p>Приобретая курс, вы получаете <br>доступ к нашей платформе</p>
+
+                    </div>
+
+                    <div class="text">
+                        <img src="img/2.png" alt="">
+
+                        <p>Каждый день на платформе <br> появляется 60-минутное видео.</p>
+                    </div>
+
+                    <div class="text">
+                        <img src="img/3.png" alt="">
+                        <p>После просмотра видео вы выполняете <br> задания на платформе, а после этого <br> получаете
+                            домашнее задание.</p>
+                    </div>
+
+                    <div class="text">
+                        <img src="img/4.png" alt="">
+                        <p>После просмотра видео вы выполняете <br> задания на платформе, а после этого <br> получаете
+                            домашнее задание.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <div class="course">
+        <div class="cou">
+
+
+            <div class="title_course">
+                <div class="title_cou">
+                    <h1>Курсы</h1>
+                </div>
+                <div class="subtitle_cou">
+                    <p>Выберите свое направление по ент, и найди<br>
+                        подходящий себе курс
+                    </p>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="title_subject">
+            <div class="title_sub">
+                <p>Выберите направление:</p>
+            </div>
+
+            <div class="title_sub_hiden">
+                <p>Выберите направление</p>
+            </div>
+
+        </div>
+        <div class="subjects">
+
+            <div class="subjuct">
+
+                <div class="special_subject">
+
+                    <ul class="navbar">
+                        <li><a href="#">Математика</a></li>
+                        <li><a href="#">Физика</a></li>
+                        <li><a href="#">Информатика</a></li>
+                        <li><a href="#">Биология</a></li>
+                        <li><a href="#">Всемирная история</a></li>
+                    </ul>
+                    <ul class="navbar">
+                        <li><a href="#">История Казахстана</a></li>
+                        <li><a href="#">Химия</a></li>
+                        <li><a href="#">Права</a></li>
+                        <li><a href="#">Казахский язык</a></li>
+                        <li><a href="#">Русский язык</a></li>
+                    </ul>
+                    <ul class="navbar">
+                        <li class="sp"><a href="#"></a>Английский язык</li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="cards">
+            <!-- <img class="btn_sub1" src="img/Frame 200.png" alt="" style="cursor: pointer;"> -->
+            <div class="bg_card">
+
+                <div class="card_infos" src="">
+
+                    <img src="img/fone_card.png" alt="">
+
+                    <h1>Математика + <br>Информатика</h1>
+
+                    <div class="info_card">
+                        <img src="img/o.ckock.png" alt="">
+                        <p>
+                            3 раза в неделю <br>
+                            онлайн уроки
+                        </p>
+                    </div>
+
+                    <div class="info_card">
+                        <img src="img/book.png" alt="">
+                        <p>
+                            Доступ к 120+ уроков <br>
+                            на платформе
+                        </p>
+                    </div>
+
+
+                    <div class="info_card">
+                        <img src="img/list.png" alt="">
+                        <p>
+                            Каждую субботу тесты <br>
+                            на знания
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="btn_buy">
+                    <a href="">Купить</a>
+
+                    <p class="price">
+                        25 тыс. тг
+                    </p>
+                </div>
+
+
+            </div>
+
+
+
+            <div class="bg_card">
+                <div class="card_infos">
+
+                    <img src="img/fone_card.png" alt="">
+
+                    <h1>Математика + <br>Информатика</h1>
+
+                    <div class="info_card">
+                        <img src="img/o.ckock.png" alt="">
+                        <p>
+                            3 раза в неделю <br>
+                            онлайн уроки
+                        </p>
+                    </div>
+
+                    <div class="info_card">
+                        <img src="img/book.png" alt="">
+                        <p>
+                            Доступ к 120+ уроков <br>
+                            на платформе
+                        </p>
+                    </div>
+
+
+                    <div class="info_card">
+                        <img src="img/list.png" alt="">
+                        <p>
+                            Каждую субботу тесты <br>
+                            на знания
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="btn_buy">
+                    <a href="">Купить</a>
+
+                    <p class="price">
+                        25 тыс. тг
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="bg_card">
+                <div class="card_infos">
+
+                    <img src="img/fone_card.png" alt="">
+
+                    <h1>Математика + <br>Информатика</h1>
+
+                    <div class="info_card">
+                        <img src="img/o.ckock.png" alt="">
+                        <p>
+                            3 раза в неделю <br>
+                            онлайн уроки
+                        </p>
+                    </div>
+
+                    <div class="info_card">
+                        <img src="img/book.png" alt="">
+                        <p>
+                            Доступ к 120+ уроков <br>
+                            на платформе
+                        </p>
+                    </div>
+
+
+                    <div class="info_card">
+                        <img src="img/list.png" alt="">
+                        <p>
+                            Каждую субботу тесты <br>
+                            на знания
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="btn_buy">
+                    <a href="">Купить</a>
+
+                    <p class="price">
+                        25 тыс. тг
+                    </p>
+                </div>
+            </div>
+
+            <div class="bg_card">
+                <div class="card_infos">
+
+                    <img src="img/fone_card.png" alt="">
+
+                    <h1>Математика + <br>Информатика</h1>
+
+                    <div class="info_card">
+                        <img src="img/o.ckock.png" alt="">
+                        <p>
+                            3 раза в неделю <br>
+                            онлайн уроки
+                        </p>
+                    </div>
+
+                    <div class="info_card">
+                        <img src="img/book.png" alt="">
+                        <p>
+                            Доступ к 120+ уроков <br>
+                            на платформе
+                        </p>
+                    </div>
+
+
+                    <div class="info_card">
+                        <img src="img/list.png" alt="">
+                        <p>
+                            Каждую субботу тесты <br>
+                            на знания
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="btn_buy">
+                    <a href="">Купить</a>
+
+                    <p class="price">
+                        25 тыс. тг
+                    </p>
+                </div>
+            </div>
+
+
+
+            <div class="bg_card">
+                <div class="card_infos">
+
+                    <img src="img/fone_card.png" alt="">
+
+                    <h1>Математика + <br>Информатика</h1>
+
+                    <div class="info_card">
+                        <img src="img/o.ckock.png" alt="">
+                        <p>
+                            3 раза в неделю <br>
+                            онлайн уроки
+                        </p>
+                    </div>
+
+                    <div class="info_card">
+                        <img src="img/book.png" alt="">
+                        <p>
+                            Доступ к 120+ уроков <br>
+                            на платформе
+                        </p>
+                    </div>
+
+
+                    <div class="info_card">
+                        <img src="img/list.png" alt="">
+                        <p>
+                            Каждую субботу тесты <br>
+                            на знания
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="btn_buy">
+                    <a href="">Купить</a>
+
+                    <p class="price">
+                        25 тыс. тг
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="teachers">
+        <div class="title_teachers">
+            <div class="title_teach">
+                <h1>Предопаветели</h1>
+            </div>
+            <div class="subtitle_teach">
+                <p>Наши лучшие и талантливые учителя с более чем
+                    5- <br>летним опытом работы в области образования в ЕНТ
+                </p>
+            </div>
+
+        </div>
+        <img class="left-btn" onclick="prevSlide()" style="cursor: pointer;" src="img/Frame 200.png" alt="">
+
+
+        <div class="teacher">
+            <div class="card-teachers card-teachers1" id="slide-card" src="0">
+                <div class="card_teacher">
+                    <img class="teach-btn_to_right" src="img/teacher1.png" alt="">
+                </div>
+
+                <div class="name-teacher">
+                    <h1>Карл Анна</h1>
+                    <p>Учитель английского языка</p>
+                </div>
+
+                <div class="info_teacher">
+                    <p>Окончила университет Harvard, <br>
+                        и окончила магистратуру в Sdu,<br>
+                        защитила докторскую диссертацию в Британии. <br>
+                        IELTS 9,0.Имеет опыт 8 лет в
+                        <br> обучении английскому.
+                    </p>
+                </div>
+
+                <div class="count_student">
+                    <h1>700+</h1>
+                    <p>людей обучила </p>
+                </div>
+
+            </div>
+            <div class="card-teachers card-teachers1" id="slide-card" src="1">
+                <div class="card_teacher">
+                    <img src="img/teacher1.png" alt="">
+                </div>
+
+                <div class="name-teacher">
+                    <h1>Карл Анна</h1>
+                    <p>Учитель английского языка</p>
+                </div>
+
+                <div class="info_teacher">
+                    <p>Окончила университет Harvard, <br>
+                        и окончила магистратуру в Sdu,<br>
+                        защитила докторскую диссертацию в Британии. <br>
+                        IELTS 9,0.Имеет опыт 8 лет в
+                        <br> обучении английскому.
+                    </p>
+                </div>
+
+                <div class="count_student">
+                    <h1>700+</h1>
+                    <p>людей обучила </p>
+                </div>
+
+            </div>
+            <div class="card-teachers card-teachers1" id="slide-card" src="2">
+
+                <div class="card_teacher">
+                    <img src="img/teacher1.png" alt="">
+                </div>
+
+                <div class="name-teacher">
+                    <h1>Карл Анна</h1>
+                    <p>Учитель английского языка</p>
+                </div>
+
+                <div class="info_teacher">
+                    <p>Окончила университет Harvard, <br>
+                        и окончила магистратуру в Sdu,<br>
+                        защитила докторскую диссертацию в Британии. <br>
+                        IELTS 9,0.Имеет опыт 8 лет в
+                        <br> обучении английскому.
+                    </p>
+                </div>
+
+                <div class="count_student">
+                    <h1>700+</h1>
+                    <p>людей обучила </p>
+                </div>
+
+            </div>
+
+
+            <div class="card-teachers" id="slide-card" src="3">
+                <div class="card_teacher">
+                    <img src="img/teacher1.png" alt="">
+                </div>
+
+                <div class="name-teacher">
+                    <h1>Карл Анна</h1>
+                    <p>Учитель английского языка</p>
+                </div>
+
+                <div class="info_teacher">
+                    <p>Окончила университет Harvard, <br>
+                        и окончила магистратуру в Sdu,<br>
+                        защитила докторскую диссертацию в Британии. <br>
+                        IELTS 9,0.Имеет опыт 8 лет в
+                        <br> обучении английскому.
+                    </p>
+                </div>
+
+                <div class="count_student">
+                    <h1>700+</h1>
+                    <p>людей обучила </p>
+                </div>
+
+            </div>
+            <img class="btn_right" onclick="nextSlide()" src="img/Frame 201.png" style="cursor: pointer;" alt="">
+        </div>
+
+    </div>
+
+
+    <div class="trial_lesson" id="trial">
+        <div class="bg_lesson">
+        </div>
+
+        <div class="trial">
+            <div class="left_blok">
+                <div class="title_tiral_lesson">
+                    <h1>Пробный урок</h1>
+
+                    <p>Хотите узнать как мы работаем ?<br>
+                        Тогда запишитесть на бесплатный пробный урок
+                    </p>
+                </div>
+
+                <div class="sing_in_to_lesson">
+                    <a href="#" id="trial">
+                        Записаться
+                    </a>
+
+
+                </div>
+            </div>
+
+            <div class="right_blok">
+                <img src="img/kid.png" alt="">
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="comments">
+
+        <div class="title_comments">
+            <h1>Отзывы</h1>
+        </div>
+        <img class="btn_comment_left" style="cursor: pointer;" src="img/Frame 200.png" alt="">
+        <img class="btn_comment_right" style="cursor: pointer;" src="img/Frame 201.png" alt="">
+        <div class="all_comment">
+
+
+            <div class="comment">
+                <div class="name_photo">
+                    <img src="img/comment_photo.png" alt="">
+                    <h1>Дария Завозовна</h1>
+                </div>
+
+                <div class="com">
+                    <p>Моему сыну было очень трудно усваивать базовые знания в школе, и вот так до 11 класса, ничего не
+                        понимая в школе, но он действительно мечтал стать IT-специалистом, но понимал, что ради гранта
+                        ему придется изучать математику, которую он не понимал, но однажды мы наткнулись на онлайн школу
+                        BilimAly
+                        и купили курс математики + информатики, и через 6 месяцев он
+                        в совершенстве овладел математикой, и вот на настоящим ент мой сын набирает 122 и получил грант,
+                        рахмет вам BilimAly!</p>
+                </div>
+            </div>
+
+            <div class="comment" id="middleCard">
+                <div class="name_photo">
+                    <img src="img/comment_photo.png" alt="">
+                    <h1>Дария Завозовна</h1>
+                </div>
+
+                <div class="com">
+                    <p>Моему сыну было очень трудно усваивать базовые знания в школе, и вот так до 11 класса, ничего не
+                        понимая в школе, но он действительно мечтал стать IT-специалистом, но понимал, что ради гранта
+                        ему придется изучать математику, которую он не понимал, но однажды мы наткнулись на онлайн школу
+                        BilimAly
+                        и купили курс математики + информатики, и через 6 месяцев он
+                        в совершенстве овладел математикой, и вот на настоящим ент мой сын набирает 122 и получил грант,
+                        рахмет вам BilimAly!</p>
+                </div>
+            </div>
+
+            <div class="comment">
+                <div class="name_photo">
+                    <img src="img/comment_photo.png" alt="">
+                    <h1>Дария Завозовна</h1>
+                </div>
+
+                <div class="com">
+                    <p>Моему сыну было очень трудно усваивать базовые знания в школе, и вот так до 11 класса, ничего не
+                        понимая в школе, но он действительно мечтал стать IT-специалистом, но понимал, что ради гранта
+                        ему придется изучать математику, которую он не понимал, но однажды мы наткнулись на онлайн школу
+                        BilimAly
+                        и купили курс математики + информатики, и через 6 месяцев он
+                        в совершенстве овладел математикой, и вот на настоящим ент мой сын набирает 122 и получил грант,
+                        рахмет вам BilimAly!</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="contacts">
+        <div class="logo_cours">
+            <div class="logo_contact">
+                <img src="img/white_logo.png" alt="">
+                <h1>BilimAly</h1>
+            </div>
+
+            <div class="menu_contacts">
+                <a href="">Как проходить обучение</a>
+                <a href="">Курсы</a>
+                <a href="">Предопаватели</a>
+                <a href="" class="last_link_contact">Отзывы</a>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="Desktop.js"></script>
+</body>
+
+</html>

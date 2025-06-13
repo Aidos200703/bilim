@@ -1,0 +1,828 @@
+@font-face {
+    font-family: 'Gilroy ExtraBold';
+    src: url('fonts/Gilroy/Gilroy-ExtraBold.otf') format('opentype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy Light';
+    src: url('fonts/Gilroy/Gilroy-Light.otf') format('opentype');
+    font-style: normal;
+}
+
+
+
+html{
+    scroll-behavior: smooth;
+    margin: 0;
+}
+
+body {
+    /* margin-left: 150px; */
+    background-color: #F6F6F6;
+    margin: 0;
+}
+
+/* body::-webkit-scrollbar{
+    width: 0;
+} */
+
+*{
+    font-family: 'Gilroy ExtraBold', sans-serif;
+    font-weight: 600;
+    margin: 0;
+    
+}
+
+::selection{
+    background-color:#2FBB00;
+    color:#F6F6F6;
+}
+
+
+header{
+    width: 1239px;
+    padding-top: 24px;
+    display: flex;
+    margin:  0 auto;
+    align-items: center;
+    
+}
+
+.logo{
+    margin:0;
+    display: flex;
+    align-items:center;
+}
+
+.logo img{
+    width: 53px;
+    height: 53px;
+}
+
+.logo h1{
+    color: #238D00;
+    font-family: "Afacad Flux", sans-serif;
+    padding-right:140px;
+
+    
+
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+
+    font-size: 40px;
+    padding-left: 8px;
+}
+
+.menu{
+    padding-right: 140px;
+ 
+}
+
+.menu a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    color:#171717;
+    padding-right: 20px;
+    font-family: 'Gilroy Light';
+}
+
+
+
+.btn_entrance p{
+    padding-right: 9px;
+}
+
+.btn_entrance_main {
+
+    padding-left: 100PX;
+    background-color:#2FBB00;
+    padding: 10px 15px;
+    border-radius: 5px;
+
+    display: flex;
+    text-decoration: none;
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 700;
+    color: #F6F6F6;
+   
+}
+
+.btn_entrance a img{
+    width: 17px;
+    height: 17px;
+
+}
+
+.container{
+    padding-top: 87px;
+    margin: 0 auto;
+    width: 1239px;
+}
+
+.content{
+    display: flex;
+    align-items:center;
+    padding:auto;
+    margin: auto;
+}
+
+
+
+.left_content{
+    padding-right:50px;
+}
+
+
+.title_left_content{
+    font-family: 'Gilroy ExtraBold', sans-serif;
+    font-weight: 800;
+    padding-bottom: 20px;
+    font-size: 70px;
+    width: 600px;
+}
+.subtitle_left_content{
+    font-family: 'Gilroy Light', sans-serif;
+    font-weight: 600;
+    width: 471px;
+    padding-bottom: 90px;
+    font-size: 20px;
+}
+
+.btn_left_content a{
+    font-weight: 700;
+    background-color:#2FBB00;
+    text-decoration: none;
+    padding: 25px 35px;
+    border-radius: 10px ;
+    color:#F6F6F6;
+    font-size: 24px;
+}
+
+.right_content{
+    width: 600px;
+    align-items:center;
+    justify-content: center;
+    display: flex;
+}
+
+.bg_colour_green{
+    background-color:#2FBB00;
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    rotate: -20deg;
+    border-radius:50px;
+}
+
+.text_front_video{
+    width: 210px;
+    font-family: 'Gilroy Light', sans-serif;
+    font-weight: 600;
+    position: absolute;
+    background-color:#F6F6F6;
+    margin-top: 410px;
+    /* left: 870px; */
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    border-radius :10px;
+    /* border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px; */
+}
+
+.all_video_elements{
+    position: relative;
+    display: flex;
+    align-items:center;
+    overflow-x:auto;
+    width: 452px;
+}
+
+.all_video_elements::-webkit-scrollbar{
+    width: 0;
+}
+
+
+.left_btn,.right_btn{
+    cursor: pointer;
+}
+.left_btn{
+    padding-right: 11px;
+}
+
+.right_btn{
+    padding-left: 11px;
+}
+
+.first_video{
+    width: 452px;
+    height: 600px;
+    padding-left: 11px;
+    padding-right: 11px;
+    background-color:#828282;
+    padding: 0;
+    border-radius: 50px;
+}
+
+.second_video{
+    display:none;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+}
+
+.second_video .active{
+    display: block;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+
+.process{
+    width: 1239px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.top_process{
+    margin-left: 110px;
+    margin-bottom: 61px;
+}
+
+.title_process{
+    align-items: center;
+}
+
+.title_process h1{
+    font-family: 'Gilroy ExtraBold', sans-serif;
+    font-weight: 800;
+    font-size: 70px;
+    text-align: center;
+    width: 940px;
+    padding-bottom: 20px;
+}
+
+.subtitle_process p{
+    font-family: 'Gilroy Light', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    padding-left: 190px;
+    width:537px;
+    justify-content: center;
+
+    font-size: 20px;
+}
+.title_sub_hiden{
+    display: none;
+    font-family: 'Gilroy Light', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    width:537px;
+    justify-content: center;
+
+    font-size: 20px;
+}
+
+.button_process{
+    display: flex;
+}
+
+.video_process video{
+    width: 553px;
+    height: 335px;
+    border-radius:50px;
+}
+
+
+.text{
+    padding-bottom: 40px;
+    display: flex;
+    margin-left: 56px;
+}
+
+.text img{
+    width: 51px;
+    height: 51px;
+    padding-right: 40px;
+}
+
+.text p{
+    font-family: 'Gilroy Light', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    width: 500px;
+    margin: auto;
+    line-height: 120%;
+}
+
+.text:nth-child(4){
+    padding-bottom: 0px;
+}
+
+
+
+.course{
+    width: 1239px;
+    margin: 0 auto;
+}
+
+.title_cou  h1{
+    font-family: 'Gilroy ExtraBold', sans-serif;
+    font-family: 800;
+    font-size: 70px;
+    width: 212px;
+    padding-left: 490px;
+    padding-bottom: 20px;
+}
+
+.subtitle_cou p{
+    font-family: 'Gilroy Light', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    width: 538px;
+    padding-left: 340px;
+    padding-bottom: 53px;
+}
+
+
+
+
+
+
+.title_subject{
+    font-size: 24px;
+    font-family: 'Gilroy Light', sans-serif;
+    font-weight: 700;
+    padding-bottom: 38px;
+}
+
+
+
+.subjuct{
+    padding-left: 100px;
+    padding-bottom: 110px;
+}
+
+
+.navbar{
+    display: flex;
+    list-style: none;
+}
+
+.navbar li{
+    padding-bottom: 50px;
+    margin-right: 21px;
+    margin-bottom: 18px;
+    padding: 20px 20px;
+    border: solid black 1px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.navbar a{
+    font-family: 'Gilroy ExtraBold', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    color:#171717;
+
+    font-size: 20px;
+
+    margin-bottom: 50px;
+}
+
+.sp{
+    font-family: 'Gilroy ExtraBold', sans-serif;
+    font-weight: 700;
+    margin-left: 350px;
+    font-size: 20px;
+}
+
+
+
+.cards{
+    display: flex;
+    overflow-x: auto;
+    padding-top: 20px;
+    padding-bottom: 100px;
+
+}
+
+/* .btn_sub1 , */
+ .btn_sub2{
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    padding-top: 262px;
+    margin-left: 1080px;
+}
+
+.cards::-webkit-scrollbar{
+    width: 0px;
+}
+
+
+.bg_card{
+    width: 245px;
+    background-color:#F6F6F6;
+    padding: 37px 28px;
+    box-shadow: 2px 2px 13.4px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+    margin-right: 40px;
+    margin-left: 5px;
+}   
+
+.bg_card img{
+    
+    width: 246px;
+    height: 174px;
+    padding-bottom: 13px;
+}
+
+.bg_card h1{
+    font-family: 'Gilroy ExtraBold', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 13px;
+}
+
+.card_infos{
+    padding-bottom: 30px;
+}
+
+.info_card{
+    display: flex;
+    align-items:center;
+    padding-bottom: 14px;
+    
+}
+
+.info_card p{
+    font-family: 'Gilroy Light', sans-serif;
+    font-weight: 700;
+}
+
+.info_card img{
+    width: 20px;
+    height: 20px;
+    padding-right: 11px;
+}
+
+
+.btn_buy{
+    display: flex;
+    align-items:center;
+}
+
+.btn_buy a{
+    font-family: 'Gilroy ExtraBold', sans-serif;
+    font-weight: 500;
+    padding: 15px 22px;
+    background-color:#2FBB00;
+    color:#F6F6F6;
+    text-decoration: none;
+    border-radius:10px;
+    margin-right:9px ;
+}
+
+.price{
+    font-weight: 700;
+    font-size: 20px;
+    color: #171717;
+}
+
+
+
+.teachers{
+    width: 1239px;
+    margin: 0 auto;
+    padding-bottom: 118px;   
+}
+.title_teachers{
+    text-align: center;
+    width: 1210px;
+    padding-bottom: 57px;
+}
+
+.title_teachers h1{
+    font-family: 'Gilroy ExtraBold', sans-serif;
+    font-weight: 800;
+    font-size: 70px;   
+    /* padding-left: 315px; */
+}
+
+.title_teachers p{
+    font-family: 'Gilroy Light', sans-serif;
+    font-weight: 600;
+    padding: 0px;
+    /* padding-left: 315px; */
+   
+    font-size: 20px;
+}
+
+.teacher{
+    padding: 0px;
+    max-width: 887px;
+    overflow-x: auto;
+    display: flex;  
+    align-items:center;
+    padding: 0px;
+    margin-left: 160px; 
+}
+
+.teacher::-webkit-scrollbar{
+    width: 0px;
+}
+
+.teacher img{
+    width: 52px;
+    height: 52px;
+    
+}
+
+
+
+.left-btn{
+    position: absolute;
+    padding-top: 350px;
+    padding-left: 97px;
+}
+.btn_right{
+    position: absolute; 
+    margin-left: 900px;
+}
+
+
+.card-teachers{
+    position: relative;
+    padding: 49px 31px;
+    background-color:rgba(246, 246, 246, 1);
+    box-shadow: 2px 2px 13.3px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+    margin-right: 29px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.card_teacher img{
+    width: 352px;
+    height: 325px;
+    padding-bottom: 20px;
+}
+
+.name-teacher{
+    padding-bottom: 21px;
+}
+
+.name-teacher h1{
+    font-family: 'Gilroy ExtraBold', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.name-teacher p{
+    font-family: 'Gilroy Light', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.info_teacher p{
+    font-family: 'Gilroy Light', sans-serif;
+    font-weight: 600;
+    width: 335px;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.count_student h1{
+    font-family: 'Gilroy ExtraBold', sans-serif;
+    font-weight: 800;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.count_student p{
+    font-family: 'Gilroy ExtraBold', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+.trial_lesson{
+    width: 1239px;
+    margin: 0 auto;
+    margin-bottom: 96px;
+}
+
+.bg_lesson{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    width: 1320px;
+    height: 411px;
+    background-color:rgba(47, 187, 0, 1);
+    border-radius:50px;
+    
+}
+
+.trial{
+    position: absolute;
+   
+    top:4015px;
+    align-items:center;
+    padding: 12px 95px;
+    display: flex;
+    background-color:rgba(200, 255, 182, 1);
+    height: 397px;
+    border-radius:50px;
+    width: 1150px;
+    padding-left: 80px;
+    margin: 0 auto;
+}
+
+.left_blok{
+    margin-right: 90px;
+}
+
+
+.title_tiral_lesson h1{
+    width: 481px;
+font-size: 70px;
+    font-family: 800;
+    padding-bottom: 20px;
+}
+
+.title_tiral_lesson p{
+    font-weight: 600;
+    font-size: 20px;
+    
+}
+
+
+.sing_in_to_lesson{
+    padding-top:84px;
+}
+
+.sing_in_to_lesson a{
+    border-radius:10px;
+    background-color:rgba(47, 187, 0, 1);
+    padding: 25px 35px;
+    text-decoration: none;
+    color:rgba(246, 246, 246, 1);
+    font-size: 24px;
+}
+
+.right_blok img{
+    
+    text-align: end;
+    bottom: 0;
+    margin-top: 20px;
+    width: 606px;
+    height: 404px;
+}
+
+.comment{
+    left: 0;
+}
+
+.comments{
+    padding-top: 56px;
+    padding-bottom: 109px;
+    position: relative;
+    width: 1239px;
+    margin: 0 auto;
+}
+
+.all_comment{
+    width: 1250px;
+    display: flex;
+    overflow-x: auto;
+}
+
+.all_comment::-webkit-scrollbar{
+    width: 0;
+}
+
+.all_comment div{
+    margin-right: 38px;
+}
+
+.title_comments h1{
+    font-family: 'Gilroy ExtraBold', sans-serif;
+    font-weight: 800;
+    font-size: 70px;
+    padding: 0px;
+    padding-left: 461px;
+    padding-bottom: 47px;
+}
+
+.btn_comment_left{
+    position: absolute;
+    margin-top: 209px;
+    margin-left: 20px;
+}
+
+.btn_comment_right{
+    position: absolute;
+    margin: 0;
+    margin-left: 1129px;
+    margin-top: 209px;
+}
+
+.comment{
+    border-radius:25px;
+    background-color:rgba(246, 246, 246, 1);
+    box-shadow: 2px 2px 14.9px -4px rgba(0, 0, 0, 0.25);
+    padding: 51px;
+    width: 623px;
+    height: 271px;
+    margin: 10px;
+}
+
+.name_photo{
+    display: flex;
+    align-items:center;
+    padding-bottom: 25px;
+}
+
+.name_photo img{
+    width: 60px;
+    height: 60px;
+    padding-right: 23px;
+    border-radius: 100px;
+}
+
+.name_photo h1{
+    font-size: 32px;
+    font-family: 'Gilroy ExtraBold', sans-serif;
+    font-weight: 700;
+}
+
+.com p{
+    width: 634px;
+    font-family: 'Gilroy Light', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+.contacts{
+    left: 0;
+    background-color:rgb(0, 0, 0);
+    
+    margin: 0 auto;
+}
+
+.logo_cours{
+    width: 1239px;
+    padding: 37px 157px;
+    display: flex;
+    align-items:center;
+    margin: 0 auto;  
+}
+
+.logo_contact{
+    display: flex;
+    cursor: pointer;
+    width: 190px;
+    margin-right: 94px;
+}
+
+.logo_cours img{
+    width: 53px;
+    height: 53px;
+    padding-right: 10px;
+}
+
+.logo_cours h1{
+    font-family: "Afacad Flux", sans-serif;
+    color: rgba(246, 246, 246, 1);
+    font-size: 40px;
+    font-weight: 600;
+    margin-right: 94;
+}
+
+.menu_contacts a{
+    text-decoration: none;
+    color: rgba(246, 246, 246, 1);
+    font-weight: 600;
+    font-size: 20px;
+    padding-right: 20px;
+    font-family: 'Gilroy Light';
+}
+
+.menu_contacts a:nth-child(4){
+    padding: 0px;
+}
+
+
+@media (max-width:375px) {
+    
+    header{
+        width: 325px;
+        margin: 0 auto;
+    } 
+}
