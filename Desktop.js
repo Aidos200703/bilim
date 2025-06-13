@@ -21,3 +21,12 @@ function prevSlide() {
   current = (current - 1 + videos.length) % videos.length;
   showSlide(current);
 }
+
+
+var menu = document.querySelector('#menu-bar');
+var navbar = document.querySelector('.menu');
+
+menu.onclick = ()=>{  
+  menu.classList.toggle('fa-times');
+  navbar.classList.toggle('active');
+}
