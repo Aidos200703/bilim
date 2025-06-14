@@ -366,26 +366,26 @@ header {
     font-size: 24px;
     font-family: 'Gilroy Light', sans-serif;
     font-weight: 700;
-    padding-bottom: 38px;
+    padding-bottom: 68px;
 }
 
 
 
 .subjuct {
-    padding-left: 100px;
+    
     padding-bottom: 110px;
 }
 
 
 .navbar {
-    display: flex;
+    display: block;
     list-style: none;
 }
 
-.navbar li {
+.navbar a {
     padding-bottom: 50px;
     margin-right: 21px;
-    margin-bottom: 18px;
+    margin-bottom: 50px;
     padding: 20px 20px;
     border: solid black 1px;
     border-radius: 10px;
@@ -400,7 +400,29 @@ header {
 
     font-size: 20px;
 
-    margin-bottom: 50px;
+    
+}
+
+.nav_cuts1{
+    display: flex;
+    padding-bottom: 60px;
+    width: 1239px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.nav_cuts2{
+    display: flex;
+    padding-bottom: 60px;
+    width: 1239px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.nav_cuts3{
+    width: 1239px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .sp {
@@ -1104,22 +1126,53 @@ margin-bottom: 30px;
     width: 320px;
 }
 
-.navbar li {
-    padding-bottom: 50px;
+.navbar a {
+
     margin-right: 8px;
-    margin-bottom: 8px;
     padding: 10px 10px;
     border: solid black 1px;
-    border-radius: 10px;
+    border-radius: 5px;
     cursor: pointer;
-    height: 24px;
+    margin-bottom: 40px;
 }
 
 .navbar a {
-
     font-size: 12px;
     height: 14px;
     margin-bottom: 0px;
+}
+
+.cut1,
+.cut2,
+.cut3,
+.cut4{
+
+   margin-bottom: 23px; 
+   width: 320px;
+    
+    text-align: center;
+}
+
+.nav_cuts1{
+    display: block;
+    padding-bottom: 1px;
+    width: 320px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.nav_cuts2{
+    display: block;
+    padding-bottom: 1px;
+    width: 320px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.nav_cuts3{
+    width: 320px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 
