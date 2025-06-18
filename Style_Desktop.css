@@ -372,7 +372,7 @@ header {
 
 
 .subjuct {
-    
+
     padding-bottom: 110px;
 }
 
@@ -400,10 +400,10 @@ header {
 
     font-size: 20px;
 
-    
+
 }
 
-.nav_cuts1{
+.nav_cuts1 {
     display: flex;
     padding-bottom: 60px;
     width: 1239px;
@@ -411,7 +411,7 @@ header {
     justify-content: center;
 }
 
-.nav_cuts2{
+.nav_cuts2 {
     display: flex;
     padding-bottom: 60px;
     width: 1239px;
@@ -419,7 +419,7 @@ header {
     justify-content: center;
 }
 
-.nav_cuts3{
+.nav_cuts3 {
     width: 1239px;
     margin: 0 auto;
     text-align: center;
@@ -898,6 +898,7 @@ header {
 
     #menu-bar {
         display: block;
+        border: 0px
     }
 
     header .menu {
@@ -1021,159 +1022,214 @@ header {
     }
 
     .process {
-    width: 320px;
-    margin: 0 auto;
-    padding-top: 85px;
-    padding-bottom: 66px;
-}
-.top_process {
-    width: 320px;
-    margin: 0 auto;
-    align-items:center;
-    padding-bottom: 40px ;
-}
+        width: 320px;
+        margin: 0 auto;
+        padding-top: 85px;
+        padding-bottom: 66px;
+    }
 
-.title_process h1 {
-    font-size: 36px;
-    width: 320px;
-    padding-bottom: 20px;
-}
+    .top_process {
+        width: 320px;
+        margin: 0 auto;
+        align-items: center;
+        padding-bottom: 40px;
+    }
 
-.subtitle_process{
-    width: 270px;
-}
+    .title_process h1 {
+        font-size: 36px;
+        width: 320px;
+        padding-bottom: 20px;
+    }
 
-.subtitle_process p {
-    
-   padding-left: 10px;
-    width: 290px;
-    align-items:center;
+    .subtitle_process {
+        width: 270px;
+    }
 
-    font-size: 12px;
-}
+    .subtitle_process p {
 
+        padding-left: 10px;
+        width: 290px;
+        align-items: center;
 
-.button_process {
-    display: block;
-}
-
-.video_process video {
-    width: 291px;
-    height: 181px;
-    border-radius: 40px;
-margin-bottom: 30px;
-}
-
-.text {
-    padding-bottom: 40px;
-    display: flex;
-    margin-left: 16px;
-}
-
-.text img {
-    width: 32px;
-    height: 32px;
-    padding-right: 22px;
-}
-
-.text p {
-    font-size: 12px;
-    width: 185px;
-    margin: 0;
-}
-
-.course {
-    width: 320px;
-    margin: 0 auto;
-}
-
-.cou{
-    width: 320px;
-    margin: 0 auto;
-    text-align: center;
-}
+        font-size: 12px;
+    }
 
 
-.title_cou h1 {
-    font-size: 36px;
-    width: 320px;
-    padding-left: 0px;
-    padding-bottom: 10px;
-    
-}
+    .button_process {
+        display: block;
+    }
 
-.subtitle_cou p {
-    
-    font-size: 12px;
-    width: 320px;
-    padding-left: 0px;
-    padding-bottom: 53px;
-}
+    .video_process video {
+        width: 291px;
+        height: 181px;
+        border-radius: 40px;
+        margin-bottom: 30px;
+    }
 
-.title_subject {
-    font-size: 16px;
-    padding-bottom: 21px;
-}
+    .text {
+        padding-bottom: 40px;
+        display: flex;
+        margin-left: 16px;
+    }
 
-.subjuct {
-    width: 320px;
-    margin: 0 auto;
-    padding-left: 0px;
-    padding-bottom: 50px;
-}
+    .text img {
+        width: 32px;
+        height: 32px;
+        padding-right: 22px;
+    }
 
-.special_subject{
-    width: 320px;
-}
+    .text p {
+        font-size: 12px;
+        width: 200px;
+        margin: 0;
+    }
 
-.navbar a {
+    .course {
+        width: 320px;
+        margin: 0 auto;
+    }
 
-    margin-right: 8px;
-    padding: 10px 10px;
-    border: solid black 1px;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-bottom: 40px;
-}
+    .cou {
+        width: 320px;
+        margin: 0 auto;
+        text-align: center;
+    }
 
-.navbar a {
-    font-size: 12px;
-    height: 14px;
-    margin-bottom: 0px;
-}
 
-.cut1,
-.cut2,
-.cut3,
-.cut4{
+    .title_cou h1 {
+        font-size: 36px;
+        width: 320px;
+        padding-left: 0px;
+        padding-bottom: 10px;
 
-   margin-bottom: 23px; 
-   width: 320px;
-    
-    text-align: center;
-}
+    }
 
-.nav_cuts1{
-    display: block;
-    padding-bottom: 1px;
-    width: 320px;
-    margin: 0 auto;
-    justify-content: center;
-}
+    .subtitle_cou p {
 
-.nav_cuts2{
-    display: block;
-    padding-bottom: 1px;
-    width: 320px;
-    margin: 0 auto;
-    justify-content: center;
-}
+        font-size: 12px;
+        width: 320px;
+        padding-left: 0px;
+        padding-bottom: 53px;
+    }
 
-.nav_cuts3{
-    width: 320px;
-    margin: 0 auto;
-    text-align: center;
-}
+    .title_subject {
+        font-size: 16px;
+        padding-bottom: 21px;
+    }
+
+    .subjuct {
+        width: 320px;
+        margin: 0 auto;
+        padding-left: 0px;
+        padding-bottom: 50px;
+    }
+
+    .special_subject {
+        width: 320px;
+    }
+
+    .navbar a {
+
+        margin-right: 8px;
+        padding: 10px 10px;
+        border: solid black 1px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-bottom: 40px;
+    }
+
+    .navbar a {
+        font-size: 12px;
+        height: 14px;
+        margin-bottom: 0px;
+    }
+
+    .cut1,
+    .cut2,
+    .cut3,
+    .cut4 {
+
+        margin-bottom: 23px;
+        width: 320px;
+
+        text-align: center;
+    }
+
+    .nav_cuts1 {
+        display: block;
+        padding-bottom: 1px;
+        width: 320px;
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .nav_cuts2 {
+        display: block;
+        padding-bottom: 1px;
+        width: 320px;
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .nav_cuts3 {
+        width: 320px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .bg_card {
+        width: 320px;
+    }
+
+    .bg_card {
+        width: 226px;
+        height: 380px;
+        background-color: #F6F6F6;
+        padding: 30px 24px;
+        box-shadow: 2px 2px 13.4px 0px rgba(0, 0, 0, 0.1);
+        border-radius: 50px;
+        margin-right: 40px;
+        margin-left: 5px;
+    }
+
+    .bg_card img {
+
+        width: 178px;
+        height: 126px;
+        padding-bottom: 13px;
+    }
+
+    .card_infos {
+        padding-bottom: 5px;
+    }
+
+
+    .info_card img {
+        width: 20px;
+        height: 20px;
+        padding-right: 11px;
+    }
+
+    .btn_buy a {
+        font-weight: 400;
+        padding: 10px 12px;
+        font-size: 16px;
+    }
+
+
+    .bg_card h1 {
+
+        font-size: 16px;
+
+    }
+
+    .info_card p {
+        font-size: 12px;
+    }
+
+    .price {
+        font-size: 16px;
+    }
 
 
 
