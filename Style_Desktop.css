@@ -575,17 +575,24 @@ header {
 
 }
 
+.one_two_teachers,
+.three_four_teachers{
+    display:flex;
+}
+
 
 
 .left-btn {
     position: absolute;
     padding-top: 350px;
     padding-left: 97px;
+    cursor: pointer;
 }
 
 .btn_right {
     position: absolute;
     margin-left: 900px;
+    cursor: pointer;
 }
 
 
@@ -647,17 +654,17 @@ header {
 
 
 .trial_lesson {
-    width: 1239px;
+    width: 1470px;
     margin: 0 auto;
-    margin-bottom: 96px;
+    margin-bottom: 250px;
 }
 
 .bg_lesson {
     position: relative;
-    top: 20px;
-    left: 20px;
-    width: 1320px;
-    height: 411px;
+    top: 42px;
+    left: 27px;
+    width: 1446px;
+    height: 580px;
     background-color: rgba(47, 187, 0, 1);
     border-radius: 50px;
 
@@ -665,21 +672,21 @@ header {
 
 .trial {
     position: absolute;
-
     top: 4015px;
     align-items: center;
     padding: 12px 95px;
     display: flex;
-    background-color: rgba(200, 255, 182, 1);
-    height: 397px;
+    background-color: #D8EAD1;
+    height: 550px;
     border-radius: 50px;
-    width: 1150px;
-    padding-left: 80px;
+    width: 1239px;
+    padding-left: 110px;
     margin: 0 auto;
 }
 
 .left_blok {
     margin-right: 90px;
+    margin-bottom: 30px;
 }
 
 
@@ -693,12 +700,35 @@ header {
 .title_tiral_lesson p {
     font-weight: 600;
     font-size: 20px;
+    padding-bottom: 42px;
+}
 
+.input_name{
+    margin-bottom: 17px;
+    border: none ;
+    background-color: #F6F6F6;
+    border-radius: 10px;
+    width: 418px;
+    height: 79px;
+    padding-left: 35px;
+    font-size: 20px;
+    color:#BEBEBE
+}
+
+.input_emile{
+    border: none ;
+    background-color: #F6F6F6;
+    border-radius: 10px;
+    width: 418px;
+    height: 79px;
+    padding-left: 35px;
+    font-size: 20px;
+    color:#BEBEBE
 }
 
 
 .sing_in_to_lesson {
-    padding-top: 84px;
+    padding-top: 60px;
 }
 
 .sing_in_to_lesson a {
@@ -711,12 +741,10 @@ header {
 }
 
 .right_blok img {
-
-    text-align: end;
-    bottom: 0;
-    margin-top: 20px;
-    width: 606px;
-    height: 404px;
+    margin-top: 88px;
+    width: 739.81px;
+    height: 490px;
+    left: 0;
 }
 
 .comment {
@@ -1242,7 +1270,7 @@ header {
     .teachers {
     width: 320px;
     margin: 0 auto;
-    padding-bottom: 118px;
+    padding-bottom: 0px;
 }
 
 .title_teachers {
@@ -1316,7 +1344,7 @@ header {
 
 .btn_right {
     position: absolute;
-    margin-left: 290px;
+    margin-left: 260px;
     width: 29px;
     height: 29px;
 }

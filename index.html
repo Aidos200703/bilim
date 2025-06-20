@@ -29,10 +29,10 @@
         </div>
 
         <div class="menu">
-            <a href="#">Как проходить обучение</a>
-            <a href="#">Курсы</a>
-            <a href="#">Предопаватели</a>
-            <a href="#" class="last_link">Отзывы</a>
+            <a href="#pro">Как проходить обучение</a>
+            <a href="#course">Курсы</a>
+            <a href="#teachers">Предопаватели</a>
+            <a href="#comments" class="last_link">Отзывы</a>
         </div>
 
 
@@ -103,7 +103,7 @@
 
 
     <section class="process">
-        <div class="pro">
+        <div class="pro" id="pro">
 
 
             <div class="top_process">
@@ -157,7 +157,7 @@
     </section>
 
 
-    <div class="course">
+    <div class="course" id="course">
         <div class="cou">
 
 
@@ -181,7 +181,7 @@
 
 
         </div>
-        <div class="subjects">
+        <div class="subjects" id="subjects">
 
             <div class="subjuct">
 
@@ -457,7 +457,7 @@
 
     </div>
 
-    <div class="teachers">
+    <div class="teachers" id="teachers">
         <div class="title_teachers">
             <div class="title_teach">
                 <h1>Предопаветели</h1>
@@ -469,11 +469,14 @@
             </div>
 
         </div>
-        <img class="left-btn" onclick="prevSlide()" style="cursor: pointer;" src="img/Frame 200.png" alt="">
+        <img class="left-btn" onclick="prevSlide1()"  src="img/Frame 200.png" alt="">
 
 
         <div class="teacher">
-            <div class="card-teachers card-teachers1" id="slide-card" src="0">
+            <div class="one_two_teachers" id="slide-card" src="first_teacher.png">
+
+            
+            <div class="card-teachers card-teachers1">
                 <div class="card_teacher">
                     <img class="teach-btn_to_right" src="img/teacher1.png" alt="">
                 </div>
@@ -498,33 +501,7 @@
                 </div>
 
             </div>
-            <div class="card-teachers card-teachers1" id="slide-card" src="1">
-                <div class="card_teacher">
-                    <img src="img/teacher1.png" alt="">
-                </div>
-
-                <div class="name-teacher">
-                    <h1>Карл Анна</h1>
-                    <p>Учитель английского языка</p>
-                </div>
-
-                <div class="info_teacher">
-                    <p>Окончила университет Harvard, <br>
-                        и окончила магистратуру в Sdu,<br>
-                        защитила докторскую диссертацию в Британии. <br>
-                        IELTS 9,0.Имеет опыт 8 лет в
-                        <br> обучении английскому.
-                    </p>
-                </div>
-
-                <div class="count_student">
-                    <h1>700+</h1>
-                    <p>людей обучила </p>
-                </div>
-
-            </div>
-            <div class="card-teachers card-teachers1" id="slide-card" src="2">
-
+            <div class="card-teachers card-teachers1">
                 <div class="card_teacher">
                     <img src="img/teacher1.png" alt="">
                 </div>
@@ -550,8 +527,13 @@
 
             </div>
 
+            </div>
 
-            <div class="card-teachers" id="slide-card" src="3">
+            <div class="three_four_teachers" id="slide-card" src="second_techer.png">
+
+            
+            <div class="card-teachers card-teachers1" >
+
                 <div class="card_teacher">
                     <img src="img/teacher1.png" alt="">
                 </div>
@@ -576,7 +558,36 @@
                 </div>
 
             </div>
-            <img class="btn_right" onclick="nextSlide()" src="img/Frame 201.png" style="cursor: pointer;" alt="">
+
+
+            <div class="card-teachers" >
+                <div class="card_teacher">
+                    <img src="img/teacher1.png" alt="">
+                </div>
+
+                <div class="name-teacher">
+                    <h1>Карл Анна</h1>
+                    <p>Учитель английского языка</p>
+                </div>
+
+                <div class="info_teacher">
+                    <p>Окончила университет Harvard, <br>
+                        и окончила магистратуру в Sdu,<br>
+                        защитила докторскую диссертацию в Британии. <br>
+                        IELTS 9,0.Имеет опыт 8 лет в
+                        <br> обучении английскому.
+                    </p>
+                </div>
+
+                <div class="count_student">
+                    <h1>700+</h1>
+                    <p>людей обучила </p>
+                </div>
+
+            </div>
+
+            </div>
+            <img class="btn_right" onclick="nextSlide1()" src="img/Frame 201.png" alt="">
         </div>
 
     </div>
@@ -594,6 +605,14 @@
                     <p>Хотите узнать как мы работаем ?<br>
                         Тогда запишитесть на бесплатный пробный урок
                     </p>
+                </div>
+            
+                <div class="register">
+                    <div class="input_info">
+                        <input type="text" class="input_name" placeholder="Ваше имя" >
+                        <br>
+                        <input type="text" class="input_emile" placeholder="Ваше почта">
+                    </div>
                 </div>
 
                 <div class="sing_in_to_lesson">
@@ -613,7 +632,7 @@
     </div>
 
 
-    <div class="comments">
+    <div class="comments" id="comment">
 
         <div class="title_comments">
             <h1>Отзывы</h1>
