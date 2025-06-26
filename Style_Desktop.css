@@ -419,6 +419,8 @@ header {
     justify-content: center;
 }
 
+
+
 .nav_cuts3 {
     width: 1239px;
     margin: 0 auto;
@@ -1378,6 +1380,98 @@ header {
     font-weight: 600;
     font-size: 12px;
 }
+.bg_lesson {
+    position: relative;
+    top: 42px;
+    left: 35px;
+    width: 324px;
+    height: 522px;
+    background-color: rgba(47, 187, 0, 1);
+    border-radius: 50px;
+
+}
+
+.trial {
+    position: absolute;
+    left: 27px;
+    top: 3232px;
+    align-items: center;
+    padding: 0px 0px;
+    display: block;
+    background-color: #D8EAD1;
+    height: 530px;
+    border-radius: 50px;
+    width: 324px;
+    
+    margin: 0 auto;
+}
+.left_blok {
+    padding:  32px 28px 0px 28px;
+    height:  330px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+.right_blok{
+    width: 247.6px;
+}
+
+.title_tiral_lesson h1 {
+    width: 257px;
+    font-size: 36px;
+    padding-bottom: 6px;
+}
+    
+.title_tiral_lesson p {
+    font-size: 16px;
+    padding-bottom: 19px;
+    width: 260px;
+}
+
+.input_name{
+    margin-bottom: 10px;
+    border: none ;
+    background-color: #F6F6F6;
+    border-radius: 10px;
+    width: 250px;
+    height: 51px;
+    padding-left: 15px;
+    font-size: 20px;
+    color:#BEBEBE
+}
+
+.input_emile{
+    border: none ;
+    border: none ;
+    background-color: #F6F6F6;
+    border-radius: 10px;
+    width: 250px;
+    height: 51px;
+    padding-left: 15px;
+    font-size: 20px;
+    color:#BEBEBE
+}
+
+.sing_in_to_lesson {
+    padding-top: 40px;
+}
+
+.sing_in_to_lesson a {
+    border-radius: 10px;
+    background-color: rgba(47, 187, 0, 1);
+    padding: 16px 20px;
+    text-decoration: none;
+    color: rgba(246, 246, 246, 1);
+    font-size: 16px;
+}
+
+.right_blok img {
+    margin-top: 0px;
+    margin-left: 47px;
+    width: 247.6px;
+    height: 165px;
+    left: 0;
+}
+
 
 
 }
