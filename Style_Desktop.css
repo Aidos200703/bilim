@@ -771,9 +771,7 @@ header {
     width: 0;
 }
 
-.all_comment div {
-    margin-right: 38px;
-}
+
 
 .title_comments h1 {
     font-family: 'Gilroy ExtraBold', sans-serif;
@@ -787,13 +785,13 @@ header {
 .btn_comment_left {
     position: absolute;
     margin-top: 209px;
-    margin-left: 20px;
+    margin-left: 150px;
 }
 
 .btn_comment_right {
     position: absolute;
     margin: 0;
-    margin-left: 1129px;
+    margin-left: 1039px;
     margin-top: 209px;
 }
 
@@ -804,8 +802,12 @@ header {
     padding: 51px;
     width: 623px;
     height: 271px;
-    margin: 10px;
+
+    margin: 20px  auto;
 }
+
+.comment { display: block; }
+/* .comment.active, .comment:first-child { display: flex; } */
 
 .name_photo {
     display: flex;
@@ -1394,7 +1396,7 @@ header {
 .trial {
     position: absolute;
     left: 27px;
-    top: 3222px;
+    top: 3212px;
     align-items: center;
     padding: 0px 0px;
     display: block;

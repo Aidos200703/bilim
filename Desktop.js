@@ -48,3 +48,58 @@ menu.onclick = ()=>{
   menu.classList.toggle('fa-times');
   navbar.classList.toggle('active');
 }
+
+
+
+
+const comments = document.querySelectorAll('.comment');
+const leftBtn = document.querySelector('.btn_comment_left');
+const rightBtn = document.querySelector('.btn_comment_right');
+let current2 = 0;
+
+function showComments(index) {
+  comments.forEach((comment, i) => {
+    comment.style.display = (i === index) ? 'flex' : 'none';
+  });
+}
+
+// Алғашқы пікірді көрсету
+showComments(current2);
+
+leftBtn.onclick = () => {
+  current2 = (current2 - 1 + comments.length) % comments.length;
+  showComments(current2);
+};
+
+rightBtn.onclick = () => {
+  current2 = (current2 + 1) % comments.length;
+  showComments(current2);
+};
+
+
+
+
+
+const comments1 = document.querySelectorAll('.card-teachers');
+const leftBtn1 = document.querySelector('.left-btn');
+const rightBtn1 = document.querySelector('.btn_right');
+let current3 = 0;
+
+function showComments(index) {
+  comments.forEach((comment, i) => {
+    comment.style.display = (i === index) ? 'block' : 'none';
+  });
+}
+
+// Алғашқы пікірді көрсету
+showComments(current3);
+
+leftBtn1.onclick = () => {
+  current3 = (current3 - 1 + comments1.length) % comments1.length;
+  showComments(current3);
+};
+
+rightBtn1.onclick = () => {
+  current3 = (current3 + 1) % comments1.length;
+  showComments(current3);
+};
