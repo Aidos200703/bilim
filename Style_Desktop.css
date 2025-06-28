@@ -101,6 +101,7 @@ header {
 
 .btn_entrance p {
     padding-right: 9px;
+    letter-spacing: 2px;
 }
 
 .btn_entrance_main {
@@ -150,6 +151,7 @@ header {
     padding-bottom: 20px;
     font-size: 70px;
     width: 600px;
+    
 }
 
 .subtitle_left_content {
@@ -158,6 +160,7 @@ header {
     width: 471px;
     padding-bottom: 90px;
     font-size: 20px;
+    letter-spacing: 1px;
 }
 
 .btn_left_content a {
@@ -168,6 +171,7 @@ header {
     border-radius: 10px;
     color: #F6F6F6;
     font-size: 24px;
+    letter-spacing: 2px;
 }
 
 .right_content {
@@ -197,6 +201,7 @@ header {
     text-align: center;
     padding: 20px 20px 20px 20px;
     border-radius: 10px;
+    
     /* border-top-right-radius: 10px;
     border-bottom-right-radius: 10px; */
 }
@@ -271,6 +276,7 @@ header {
     text-align: center;
     width: 940px;
     padding-bottom: 20px;
+    letter-spacing: 2px;
 }
 
 .subtitle_process p {
@@ -345,6 +351,7 @@ header {
     width: 212px;
     padding-left: 490px;
     padding-bottom: 20px;
+    letter-spacing: 2px;
 }
 
 .subtitle_cou p {
@@ -367,6 +374,7 @@ header {
     font-family: 'Gilroy Light', sans-serif;
     font-weight: 700;
     padding-bottom: 68px;
+    letter-spacing: 1px;
 }
 
 
@@ -399,6 +407,7 @@ header {
     color: #171717;
 
     font-size: 20px;
+    letter-spacing: 1px;
 
 
 }
@@ -545,6 +554,7 @@ header {
     font-family: 'Gilroy ExtraBold', sans-serif;
     font-weight: 800;
     font-size: 70px;
+    letter-spacing: 2px;
     /* padding-left: 315px; */
 }
 
@@ -665,8 +675,8 @@ header {
     position: relative;
     top: 42px;
     left: 27px;
-    width: 1446px;
-    height: 580px;
+    width: 1436px;
+    height: 570px;
     background-color: rgba(47, 187, 0, 1);
     border-radius: 50px;
 
@@ -780,6 +790,7 @@ header {
     padding: 0px;
     padding-left: 461px;
     padding-bottom: 47px;
+    letter-spacing: 2px;
 }
 
 .btn_comment_left {
@@ -826,6 +837,7 @@ header {
     font-size: 32px;
     font-family: 'Gilroy ExtraBold', sans-serif;
     font-weight: 700;
+    letter-spacing: 1px;
 }
 
 .com p {
