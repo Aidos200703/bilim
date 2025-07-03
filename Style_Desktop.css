@@ -1508,9 +1508,14 @@ header {
     .comments {
         margin-left: 18px;
         margin-top: 0;
-        width: 400px;
+        width: 320px;
         padding-top: 0px;
 
+    }
+
+    .title_comment{
+        width: 320px;
+        margin: 0 auto;
     }
 
     .title_comments h1 {
@@ -1519,7 +1524,7 @@ header {
         padding-bottom: 0px;
         letter-spacing: 2px;
         margin: 0 auto;
-        width: 150px;
+        width: 121px;
     }
 
     .all_comment {
