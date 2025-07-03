@@ -851,19 +851,163 @@ header {
 }
 
 
+
+
+
+
+
 .contacts {
     left: 0;
     background-color: rgb(0, 0, 0);
-
+    height: 425px;
     margin: 0 auto;
+}
+
+.all_contact{
+    width: 1239px;
+    margin: 0 auto;
+    padding:40px 0px;
+}
+
+.about_company{
+    color: #F6F6F6;
+    width: 447px;
+    padding-right: 103px;
+}
+
+.title_about_company{
+    font-size: 24px;
+    font-family: 'Gilroy Light';
+    font-weight: 600;
+    padding-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.about_company p{
+    font-size: 20px;
+    font-family: 'Gilroy Light';
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+
+
+.useful{
+    color: #F6F6F6;
+    padding-right: 103px;
+}
+
+.title_useful{
+    font-size: 24px;
+    font-family: 'Gilroy Light';
+    font-weight: 600;
+    padding-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.menu_contacts a {
+    display: block;
+    text-decoration: none;
+    color: rgba(246, 246, 246, 1);
+    font-weight: 600;
+    font-size: 20px;
+    padding-bottom: 20px;
+    font-family: 'Gilroy Light';
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+
+
+
+.contact_info{
+    color: #F6F6F6;
+}
+
+.place p{
+    font-family: 'Gilroy Light';
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 20px;
+    padding-bottom: 16px;
+}
+
+.number{
+    display: flex;
+    align-items: center;
+    padding-bottom: 16px;
+}
+
+.number img{
+    width: 12px;
+    height: 12px;
+    padding-right: 5px;
+    
+}
+
+.number p{
+    font-family: 'Gilroy Light';
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+.icon_email{
+    width: 12px;
+    height: 12px;
+    padding-right: 5px;
+    
+}
+
+.email{
+    padding-bottom: 16px;
+
+}
+.email a{
+    font-family: 'Gilroy Light';
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #F6F6F6;
+   
+}
+
+
+
+.social_media a{
+    text-decoration: none;
+    color: #F6F6F6;
+    width: 16px;
+    height: 16px;
+}
+
+
+.social_media a :nth-child(1){
+    padding-right: 52px;
+}
+
+
+
+.title_contact_info{
+    font-size: 24px;
+    font-family: 'Gilroy Light';
+    font-weight: 600;
+    padding-bottom: 30px;
+    letter-spacing: 1px;
 }
 
 .logo_cours {
     width: 1239px;
-    padding: 37px 157px;
-    display: flex;
+    display: block;
     align-items: center;
     margin: 0 auto;
+}
+
+
+.logo_cours_info{
+    display: flex;
+    padding-bottom: 30px;
 }
 
 .logo_contact {
@@ -884,21 +1028,23 @@ header {
     color: rgba(246, 246, 246, 1);
     font-size: 40px;
     font-weight: 600;
-    margin-right: 94;
+    padding-bottom: 30px;
 }
 
-.menu_contacts a {
-    text-decoration: none;
-    color: rgba(246, 246, 246, 1);
-    font-weight: 600;
-    font-size: 20px;
-    padding-right: 20px;
-    font-family: 'Gilroy Light';
-}
+
 
 .menu_contacts a:nth-child(4) {
     padding: 0px;
 }
+
+.security p{
+    font-family: 'Gilroy Light', sans-serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+    font-size: 12px;
+    color: #F6F6F6;
+}
+
 
 
 @media (max-width:401px) {
