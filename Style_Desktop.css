@@ -1753,7 +1753,7 @@ header {
     }
 
     .contacts {
-        width: 401px;
+        width: auto;
         margin: 0 auto;
         height: 300px;
     }
