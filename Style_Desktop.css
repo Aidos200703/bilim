@@ -129,6 +129,7 @@ header {
     padding-top: 87px;
     margin: 0 auto;
     width: 1239px;
+    padding-bottom: 145px;
 }
 
 .content {
@@ -256,7 +257,6 @@ header {
 .process {
     width: 1239px;
     margin: 0 auto;
-    padding-top: 100px;
     padding-bottom: 100px;
 }
 
@@ -668,12 +668,12 @@ header {
 .trial_lesson {
     width: 1470px;
     margin: 0 auto;
-    margin-bottom: 250px;
+    margin-bottom: 143px;
 }
 
 .bg_lesson {
     position: relative;
-    top: 42px;
+    top: 0px;
     left: 27px;
     width: 1436px;
     height: 570px;
@@ -764,7 +764,6 @@ header {
 }
 
 .comments {
-    padding-top: 56px;
     padding-bottom: 109px;
     position: relative;
     width: 1239px;
@@ -869,6 +868,43 @@ header {
     padding: 40px 0px;
 }
 
+
+.logo_cours {
+    width: 1239px;
+    display: block;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+.logo_cours_info {
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.logo_contact {
+    display: flex;
+    cursor: pointer;
+    width: 190px;
+    margin-right: 94px;
+}
+
+.logo_cours img {
+    width: 53px;
+    height: 53px;
+    padding-right: 10px;
+}
+
+.logo_cours h1 {
+    font-family: "Afacad Flux", sans-serif;
+    color: rgba(246, 246, 246, 1);
+    font-size: 40px;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+
+
+
 .about_company {
     color: #F6F6F6;
     width: 447px;
@@ -966,6 +1002,10 @@ header {
 
 }
 
+.email_link_for_mobile{
+    display: none;
+}
+
 .email a {
     font-family: 'Gilroy Light';
     font-weight: 600;
@@ -1000,39 +1040,6 @@ header {
     letter-spacing: 1px;
 }
 
-.logo_cours {
-    width: 1239px;
-    display: block;
-    align-items: center;
-    margin: 0 auto;
-}
-
-
-.logo_cours_info {
-    display: flex;
-    padding-bottom: 30px;
-}
-
-.logo_contact {
-    display: flex;
-    cursor: pointer;
-    width: 190px;
-    margin-right: 94px;
-}
-
-.logo_cours img {
-    width: 53px;
-    height: 53px;
-    padding-right: 10px;
-}
-
-.logo_cours h1 {
-    font-family: "Afacad Flux", sans-serif;
-    color: rgba(246, 246, 246, 1);
-    font-size: 40px;
-    font-weight: 600;
-    padding-bottom: 30px;
-}
 
 
 
@@ -1566,7 +1573,7 @@ header {
     .trial {
         position: absolute;
         left: 27px;
-        top: 3217px;
+        top: 3392px;
         align-items: center;
         padding: 0px 0px;
         display: block;
@@ -1581,7 +1588,7 @@ header {
     .trial_lesson {
         width: 1470px;
         margin: 0 auto;
-        margin-bottom: 94px;
+        margin-bottom: 123px;
     }
 
     .left_blok {
@@ -1659,7 +1666,7 @@ header {
         margin-top: 0;
         width: 320px;
         padding-top: 0px;
-
+        padding-bottom: 63px;
     }
 
     .title_comment {
@@ -1740,5 +1747,172 @@ header {
         height: 29px;
     }
 
+    .contacts {
+        width: 401px;
+        margin: 0 auto;
+        height: 300px;
+    }
+
+    .all_contact {
+        width: 344px;
+        margin: 0 auto;
+        padding: 16px 0px;
+    }
+
+    .logo_cours {
+        width: 343px;
+        margin: 0 auto;
+    }
+
+    .logo_cours img {
+        width: 33px;
+        height: 33px;
+        padding-right: 10px;
+    }
+    
+    .logo_cours h1 {
+        font-family: "Afacad Flux", sans-serif;
+        color: rgba(246, 246, 246, 1);
+        font-size: 24px;
+        font-weight: 600;
+        padding-bottom: 13px;
+    }
+    
+
+
+
+
+    .about_company {
+        color: #F6F6F6;
+        width: 150px;
+        padding-right: 16px;
+    }
+    
+    .title_about_company {
+        font-size: 16px;
+        font-family: 'Gilroy Light';
+        font-weight: 600;
+        padding-bottom: 12px;
+        letter-spacing: 1px;
+    }
+    
+    .about_company p {
+        width: 129px;
+        font-size: 10px;
+        font-family: 'Gilroy Light';
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+
+    .useful {
+        color: #F6F6F6;
+        padding-right: 16px;
+    }
+    
+    .title_useful {
+        font-size: 16px;
+        font-family: 'Gilroy Light';
+        font-weight: 600;
+        padding-bottom: 12px;
+        letter-spacing: 1px;
+    }
+    
+    .menu_contacts a {
+        display: block;
+        text-decoration: none;
+        color: rgba(246, 246, 246, 1);
+        font-weight: 600;
+        font-size: 10px;
+        padding-bottom: 5px;
+        font-family: 'Gilroy Light';
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+
+
+    .contact_info {
+        color: #F6F6F6;
+    }
+
+    .title_contact_info {
+        font-size: 16px;
+        font-family: 'Gilroy Light';
+        font-weight: 600;
+        padding-bottom: 12px;
+        letter-spacing: 1px;
+    }
+    
+    .place p {
+        font-family: 'Gilroy Light';
+        font-weight: 600;
+        letter-spacing: 1px;
+        font-size: 10px;
+        padding-bottom: 9px;
+        width: 93px;
+    }
+    
+    .number {
+        display: flex;
+        align-items: center;
+        padding-bottom: 9px;
+    }
+    
+    .number img {
+        width: 16px;
+        height: 16px;
+        padding-right: 5px;
+    
+    }
+    
+    .number a {
+        text-decoration: none;
+        color: #F6F6F6;
+        font-family: 'Gilroy Light';
+        font-weight: 600;
+        letter-spacing: 1px;
+        font-size: 10px;
+        width: 722px;
+    }
+    
+    .icon_email {
+        width: 16px;
+        height: 16px;
+        padding-right: 5px;
+    
+    }
+    
+    .email {
+        padding-bottom: 9px;
+        width: 93px;
+        display: flex;
+    }
+
+    .email_link_for_mobile{
+        display: block;
+    }
+
+    .email_link{
+        display: none;
+    }
+    
+    .email a {
+        font-family: 'Gilroy Light';
+        font-weight: 600;
+        letter-spacing: 1px;
+        font-size: 10px;
+        text-decoration: none;
+        color: #F6F6F6;
+    }
+    
+    .social_media a :nth-child(1) {
+        padding-right: 9px;
+    }
+    
+    
+    .security p {
+       
+        font-size: 10px;
+    }
+    
 
 }
