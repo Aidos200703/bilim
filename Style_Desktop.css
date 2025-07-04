@@ -863,19 +863,19 @@ header {
     margin: 0 auto;
 }
 
-.all_contact{
+.all_contact {
     width: 1239px;
     margin: 0 auto;
-    padding:40px 0px;
+    padding: 40px 0px;
 }
 
-.about_company{
+.about_company {
     color: #F6F6F6;
     width: 447px;
     padding-right: 103px;
 }
 
-.title_about_company{
+.title_about_company {
     font-size: 24px;
     font-family: 'Gilroy Light';
     font-weight: 600;
@@ -883,7 +883,7 @@ header {
     letter-spacing: 1px;
 }
 
-.about_company p{
+.about_company p {
     font-size: 20px;
     font-family: 'Gilroy Light';
     font-weight: 600;
@@ -892,12 +892,12 @@ header {
 
 
 
-.useful{
+.useful {
     color: #F6F6F6;
     padding-right: 103px;
 }
 
-.title_useful{
+.title_useful {
     font-size: 24px;
     font-family: 'Gilroy Light';
     font-weight: 600;
@@ -920,11 +920,11 @@ header {
 
 
 
-.contact_info{
+.contact_info {
     color: #F6F6F6;
 }
 
-.place p{
+.place p {
     font-family: 'Gilroy Light';
     font-weight: 600;
     letter-spacing: 1px;
@@ -932,50 +932,53 @@ header {
     padding-bottom: 16px;
 }
 
-.number{
+.number {
     display: flex;
     align-items: center;
     padding-bottom: 16px;
 }
 
-.number img{
+.number img {
     width: 12px;
     height: 12px;
     padding-right: 5px;
-    
+
 }
 
-.number p{
+.number a {
+    text-decoration: none;
+    color: #F6F6F6;
     font-family: 'Gilroy Light';
     font-weight: 600;
     letter-spacing: 1px;
     font-size: 20px;
 }
 
-.icon_email{
+.icon_email {
     width: 12px;
     height: 12px;
     padding-right: 5px;
-    
+
 }
 
-.email{
+.email {
     padding-bottom: 16px;
 
 }
-.email a{
+
+.email a {
     font-family: 'Gilroy Light';
     font-weight: 600;
     letter-spacing: 1px;
     font-size: 20px;
     text-decoration: none;
     color: #F6F6F6;
-   
+
 }
 
 
 
-.social_media a{
+.social_media a {
     text-decoration: none;
     color: #F6F6F6;
     width: 16px;
@@ -983,13 +986,13 @@ header {
 }
 
 
-.social_media a :nth-child(1){
+.social_media a :nth-child(1) {
     padding-right: 52px;
 }
 
 
 
-.title_contact_info{
+.title_contact_info {
     font-size: 24px;
     font-family: 'Gilroy Light';
     font-weight: 600;
@@ -1005,7 +1008,7 @@ header {
 }
 
 
-.logo_cours_info{
+.logo_cours_info {
     display: flex;
     padding-bottom: 30px;
 }
@@ -1037,7 +1040,7 @@ header {
     padding: 0px;
 }
 
-.security p{
+.security p {
     font-family: 'Gilroy Light', sans-serif;
     font-weight: 100;
     letter-spacing: 1px;
@@ -1659,7 +1662,7 @@ header {
 
     }
 
-    .title_comment{
+    .title_comment {
         width: 320px;
         margin: 0 auto;
     }
