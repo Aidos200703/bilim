@@ -186,14 +186,29 @@ header {
     font-weight: 600;
     font-family: 'Gilroy Light', sans-serif;
     color: #171717;
-    margin-bottom: 15px;
     background: transparent;
     border-color: #CFCFCF;
     background-color: #F6F6F6;
 }
 
+.when_error{
+    display: none;
+}
+
+
+.when_error p{
+    padding-top: 3px;
+    padding-left: 18px;
+    font-size: 10px;
+    font-weight: 600;
+    color: #AC0707;
+    font-family: 'Gilroy Light', sans-serif;
+    /* padding-bottom: 15px; */
+    /* display: none; */
+}
 
 .input_repeat_password{
+    margin-top: 25px;
     margin-bottom: 35px;
 }
 
@@ -247,7 +262,7 @@ header {
     font-family: 'Gilroy Light', sans-serif;
     color: #F6F6F6;
     background-color: #2FB403;
-    padding: 16px 145px;
+    padding: 16px 72px;
     border-radius: 10px;
     
    

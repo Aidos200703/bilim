@@ -24,15 +24,24 @@ function togglePasswordRepeat() {
 }
 
 const input = document.getElementById('passwordInput');
+
+const error = document.getElementById('when_error');
+const margin_for_password = document.getElementById('input_repeat_password');
 input.addEventListener('input', function() {
-    if (input.value.length < 8 && input.value.length > 0) {
+    if (input.value.length < 7 && input.value.length > 0) {
         input.style.borderColor = '#AC0707';
+        error.style.display = 'block';
+        margin_for_password.style.marginTop = '15px';
     }
     else if (input.value.length === 0) {
         input.style.borderColor = '#CFCFCF';
+        error.style.display = 'none';
+        margin_for_password.style.marginTop = '25px';
     }
     else {
         input.style.borderColor = '#2FBB00';
+        error.style.display = 'none';
+        margin_for_password.style.marginTop = '25px';
     }
 });
 

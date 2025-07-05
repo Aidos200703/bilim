@@ -64,7 +64,14 @@
                             <img src="img/eye-off-icon.png" id="eyeIcon" alt="Show/Hide">
                         </span>
                     </div>
-                    <div class="input_repeat_password">
+
+                    <div class="when_error" id="when_error">
+                        <p>Пароль должен состоять ровно из 7 символов,<br> 
+                            включая минимум одну заглавную букву и одну цифру.<br>
+                            Не допускается использовать символы: !"№;%:?*()_+-</p>
+                    </div>
+
+                    <div class="input_repeat_password" id="input_repeat_password">
                         <input type="password" placeholder="Повторите пароль"  id="passwordInputRepeat">
                         <span class="toggle-password-for_repeat" onclick="togglePasswordRepeat()">
                             <img src="img/eye-off-icon.png" id="eyeIconRepeat" alt="Show/Hide">
@@ -72,7 +79,7 @@
                     </div>
 
                     <div class="inter">
-                        <a class="inter_btn" href="#">Войти</a>
+                        <a class="inter_btn" href="#">Зарегистрироваться</a>
                     </div>
 
                     <div class="divider">
