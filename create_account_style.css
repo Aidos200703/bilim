@@ -1,0 +1,324 @@
+@font-face {
+    font-family: 'Gilroy ExtraBold';
+    src: url('fonts/Gilroy/Gilroy-ExtraBold.otf') format('opentype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy Light';
+    src: url('fonts/Gilroy/Gilroy-Light.otf') format('opentype');
+    font-style: normal;
+}
+
+* {
+    font-family: 'Gilroy ExtraBold', sans-serif;
+    font-weight: 600;
+    margin: 0;
+
+}
+
+::selection {
+    background-color: #2FBB00;
+    color: #F6F6F6;
+}
+
+html {
+    scroll-behavior: smooth;
+    margin: 0;
+}
+
+
+
+
+body {
+    background-color: #F6F6F6;
+    margin: 0
+}
+
+header {
+    width: 1239px;
+    padding-top: 24px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+
+}
+
+.logo {
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 53px;
+    height: 53px;
+}
+
+.logo h1 {
+    color: #238D00;
+    font-family: "Afacad Flux", sans-serif;
+    padding-right: 140px;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    font-size: 40px;
+    padding-left: 8px;
+}
+
+.menu {
+    padding-right: 140px;
+
+}
+
+.menu a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    color: #171717;
+    padding-right: 20px;
+    font-family: 'Gilroy Light';
+}
+
+#menu-bar {
+    font-size: calc(20px + (30-20)*((100vw-300px)/(1600-300)));
+    ;
+    cursor: pointer;
+    color: #222;
+    border: .1rem solid #222;
+    padding: 10px 13px;
+    border-radius: 0.3rem;
+    display: none;
+}
+
+
+.btn_entrance p {
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.btn_entrance_main {
+
+    padding-left: 100PX;
+    background-color: #2FBB00;
+    padding: 10px 15px;
+    border-radius: 5px;
+
+    display: flex;
+    text-decoration: none;
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 700;
+    color: #F6F6F6;
+
+}
+
+.btn_entrance a{
+    align-items: center;
+}
+
+.btn_entrance a img {
+    width: 12px;
+    height: 12px;
+    padding-right: 9px;
+
+}
+
+.container{
+    width: 485px;
+    height: 838px;
+    background-color: #F6F6F6;
+    box-shadow: 1px 1px 11.8px 0px #0000001A;
+    border-radius: 50px;
+    margin: 0 auto;
+    margin-top: 67px;
+    
+}
+
+.content{
+    padding: 60px 70px;
+}
+
+.title h1{
+    font-size: 32px;
+    font-weight:100;
+    color: #171717;
+    font-family: 'Gilroy ExtraBold', sans-serif;
+    text-align: center;
+    padding-bottom: 45px;
+}
+
+.input{
+    padding-bottom: 19px;
+}
+
+.input,.input_name,.input_password{
+    width: 485px;
+}
+
+.input_name input, .input_surname input, .input_email input{
+    width: 324px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #ABABAB;
+    padding-left: 16px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Gilroy Light', sans-serif;
+    color: #171717;
+    margin-bottom: 25px;
+    border-color: #CFCFCF;
+    background-color: #F6F6F6;
+}   
+
+.input_name input:focus, .input_surname input:focus, .input_email input:focus {
+    border-color: #2FBB00; /* Жасыл түс */
+    outline: none;         /* Көк контурды алып тастау үшін */
+}
+
+.input_password input, .input_repeat_password input{
+    width: 324px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid#ABABAB;
+    padding-left: 16px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Gilroy Light', sans-serif;
+    color: #171717;
+    margin-bottom: 15px;
+    background: transparent;
+    border-color: #CFCFCF;
+    background-color: #F6F6F6;
+}
+
+.input_repeat_password{
+    margin-bottom: 35px;
+}
+
+.input_password input:focus, .input_repeat_password input:focus {
+    border-color: #2FBB00; /* Жасыл түс */
+    outline: none;         /* Көк контурды алып тастау үшін */
+}
+
+.input_password{
+    position: relative;
+}
+
+.toggle-password {
+    position: relative;
+    cursor: pointer;
+    
+    top: 5px;
+    left: -48px;
+
+}
+.toggle-password-for_repeat {
+    position: relative;
+    cursor: pointer;
+    
+    top: 7px;
+    left: -48px;
+}
+
+.toggle-password img {
+     
+    
+    width: 20px;
+    height: 21px;
+    opacity: 0.5;
+}
+
+
+
+.inter{
+    width: 345px;
+   margin-bottom: 37px;
+  }
+
+ 
+
+  .inter a{
+
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Gilroy Light', sans-serif;
+    color: #F6F6F6;
+    background-color: #2FB403;
+    padding: 16px 145px;
+    border-radius: 10px;
+    
+   
+  } 
+
+
+.divider {
+    display: flex;
+    align-items: center;
+    width: 345px;
+    color: #b3b3b3;
+    margin-top: 19px; 
+  }
+  
+  .divider::before,
+  .divider::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid #b3b3b3;
+    margin: 0 4px;
+  }
+  
+  .divider span {
+    /* width: 139px; */
+    font-size: 14px; /* қалауыңызша */
+    color: #b3b3b3;
+    font-family: 'Gilroy Light', sans-serif;
+  }
+
+  .another_login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 345px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #ABABAB;
+    margin-bottom: 19px;
+    
+  }
+
+  .another_login a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Gilroy Light', sans-serif;
+    color: #171717;
+  }
+
+  .google{
+    font-weight: 400;
+    font-size: 20px;
+    padding-right: 4px;
+  }
+
+  .create_account{
+    width: 345px;
+    
+    text-align: center;
+  }
+
+  .create_account a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Gilroy Light', sans-serif;
+    color: #171717;
+  }
+
+  .create_account a span{
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'Gilroy Light', sans-serif;
+    color: #2FB403;
+    text-decoration: underline;
+  }
