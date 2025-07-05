@@ -29,7 +29,6 @@ html {
 
 
 
-
 body {
     background-color: #F6F6F6;
     margin: 0
@@ -41,7 +40,7 @@ header {
     display: flex;
     margin: 0 auto;
     align-items: center;
-
+    padding-bottom: 150px;
 }
 
 .logo {
@@ -126,31 +125,42 @@ header {
 
 .container{
     width: 485px;
-    height: 620px;
+    height: 368px;
     background-color: #F6F6F6;
     box-shadow: 1px 1px 11.8px 0px #0000001A;
     border-radius: 50px;
     margin: 0 auto;
-    margin-top: 67px;
-    
 }
 
 .content{
     padding: 60px 70px;
 }
 
-.title h1{
-    font-size: 32px;
-    font-weight:100;
-    color: #171717;
-    font-family: 'Gilroy ExtraBold', sans-serif;
+.title{
     text-align: center;
-    padding-bottom: 45px;
+    padding-bottom: 6px;
 }
 
-.input{
-    padding-bottom: 19px;
+.title h1{
+    font-size: 32px;
+    font-weight: 400;
+    color: #171717;
+}   
+
+.subtitle{
+    text-align: center;
+    padding-bottom: 30px;
 }
+
+.subtitle p{
+    font-family: 'Gilroy Light';
+    font-size: 16px;
+    font-weight: 600;
+color: #ABABAB;
+}
+
+
+
 
 .input,.input_email,.input_password{
     width: 485px;
@@ -177,154 +187,21 @@ header {
     outline: none;         /* Көк контурды алып тастау үшін */
 }
 
-.input_password input{
-    width: 324px;
-    height: 50px;
+.btn_take_code{
+    padding-top: 30px;
+    padding-bottom: 18px;
+    
+}
+
+
+.btn_take_code a{
+    padding: 16px 118px;
+    background: #2FBB00;
     border-radius: 10px;
-    border: 1px solid#ABABAB;
-    padding-left: 16px;
-    font-size: 16px;
-    font-weight: 600;
-    font-family: 'Gilroy Light', sans-serif;
-    color: #171717;
-    margin-bottom: 15px;
-    background: transparent;
-    border-color: #CFCFCF;
-}
-.input_password input:focus {
-    border-color: #2FBB00; /* Жасыл түс */
-    outline: none;         /* Көк контурды алып тастау үшін */
-}
-
-.input_password{
-    position: relative;
-}
-
-.toggle-password {
-    position: absolute;
-    cursor: pointer;
-    
-    top: 16px;
-    left: 299px;
-}
-
-.toggle-password img {
-     
-    
-    width: 20px;
-    height: 21px;
-    opacity: 0.5;
-}
-
-.forget_password{
-    
-    text-align: right;
-    width: 345px;
-    padding-bottom: 30px;
-   
-}
-
-.forget_password a{
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: 600;
-    font-family: 'Gilroy Light', sans-serif;
-    color: #2FB403;
-    
-    
-    width: 345px;
-}
-
-.inter{
-    width: 345px;
-   margin-bottom: 37px;
-  }
-
-  .inter_btn{
-    
-  }
-
-  .inter a{
-
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: 600;
-    font-family: 'Gilroy Light', sans-serif;
     color: #F6F6F6;
-    background-color: #2FB403;
-    padding: 16px 145px;
-    border-radius: 10px;
-    
-   
-  } 
-
-
-.divider {
-    display: flex;
-    align-items: center;
-    width: 345px;
-    color: #b3b3b3;
-    margin-top: 19px; 
-  }
-  
-  .divider::before,
-  .divider::after {
-    content: "";
-    flex: 1;
-    border-bottom: 1px solid #b3b3b3;
-    margin: 0 4px;
-  }
-  
-  .divider span {
-    /* width: 139px; */
-    font-size: 14px; /* қалауыңызша */
-    color: #b3b3b3;
     font-family: 'Gilroy Light', sans-serif;
-  }
-
-  .another_login{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 345px;
-    height: 50px;
-    border-radius: 10px;
-    border: 1px solid #ABABAB;
-    margin-bottom: 19px;
-    
-  }
-
-  .another_login a{
+    font-size: 16px;
+    font-weight: 600;
     text-decoration: none;
-    font-size: 20px;
-    font-family: 'Gilroy Light', sans-serif;
-    color: #171717;
-  }
-
-  .google{
-    font-weight: 400;
-    font-size: 20px;
-    padding-right: 4px;
-  }
-
-  .create_account{
-    width: 345px;
-    
     text-align: center;
-  }
-
-  .create_account a{
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: 600;
-    font-family: 'Gilroy Light', sans-serif;
-    color: #171717;
-  }
-
-  .create_account a span{
-    font-weight: 600;
-    font-size: 16px;
-    font-family: 'Gilroy Light', sans-serif;
-    color: #2FB403;
-    text-decoration: underline;
-  }
+}

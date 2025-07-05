@@ -93,12 +93,12 @@ header {
 }
 
 
-.btn_entrance p {
+.btn_back p {
     font-weight: 400;
     letter-spacing: 2px;
 }
 
-.btn_entrance_main {
+.btn_back_main {
 
     padding-left: 100PX;
     background-color: #2FBB00;
@@ -113,11 +113,11 @@ header {
 
 }
 
-.btn_entrance a{
+.btn_back a{
     align-items: center;
 }
 
-.btn_entrance a img {
+.btn_back a img {
     width: 12px;
     height: 12px;
     padding-right: 9px;
