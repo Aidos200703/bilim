@@ -8,6 +8,7 @@ function togglePassword() {
         input.type = 'password';
         icon.src = 'img/eye-off-icon.png'; // Жабық көз иконкасы
     }
+    
 }
 
 function togglePasswordRepeat() {
