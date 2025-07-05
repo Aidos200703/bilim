@@ -168,7 +168,8 @@ header {
     color: #171717;
     margin-bottom: 25px;
     border-color: #CFCFCF;
-    background-color: #F6F6F6;
+    background: transparent;
+
 }   
 
 .input_email input:focus {
@@ -189,7 +190,6 @@ header {
     margin-bottom: 15px;
     background: transparent;
     border-color: #CFCFCF;
-    background-color: #F6F6F6;
 }
 .input_password input:focus {
     border-color: #2FBB00; /* Жасыл түс */
