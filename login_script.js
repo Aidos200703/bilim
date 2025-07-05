@@ -9,3 +9,4 @@ function togglePassword() {
         icon.src = 'img/eye-off-icon.png'; // Жабық көз иконкасы
     }
 }
+
