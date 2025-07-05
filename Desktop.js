@@ -106,3 +106,5 @@ rightBtn1.onclick = () => {
   current3 = (current3 + 1) % comments1.length;
   showComments(current3);
 };
+
+const com1 = document.getElementById('com1');

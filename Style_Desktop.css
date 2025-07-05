@@ -126,7 +126,7 @@ header {
 }
 
 .container {
-    padding-top: 87px;
+    padding-top: 120px;
     margin: 0 auto;
     width: 1239px;
     padding-bottom: 145px;
@@ -192,23 +192,26 @@ header {
 }
 
 .text_front_video {
-    width: 210px;
+    /* position: absolute; */
+    
+    margin-top: 410px;
+    padding-right: 160px;
+
+}
+
+.text_front_video p{
+    position: relative;
+    background-color: #F6F6F6;
+    padding: 20px 20px 20px 20px;
+    width: 290px;
+    font-size: 20px;
     font-family: 'Gilroy Light', sans-serif;
     font-weight: 600;
-    position: absolute;
-    background-color: #F6F6F6;
-    margin-top: 410px;
-    /* left: 870px; */
-    text-align: center;
-    padding: 20px 20px 20px 20px;
     border-radius: 10px;
-
-    /* border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px; */
 }
 
 .all_video_elements {
-    position: relative;
+    position: absolute;
     display: flex;
     align-items: center;
     overflow-x: auto;
@@ -303,12 +306,14 @@ header {
 
 .button_process {
     display: flex;
+    align-items: center;
 }
 
 .video_process video {
     width: 553px;
-    height: 335px;
+    height: 310px;
     border-radius: 50px;
+    margin-top: 10px;
 }
 
 
@@ -684,7 +689,7 @@ header {
 
 .trial {
     position: absolute;
-    top: 4015px;
+    top: 3937px;
     align-items: center;
     padding: 12px 95px;
     display: flex;
@@ -714,28 +719,48 @@ header {
     font-size: 20px;
     padding-bottom: 42px;
 }
+.input_name input:focus{
+    border-color: #2FBB00;
 
-.input_name {
-    margin-bottom: 17px;
-    border: none;
-    background-color: #F6F6F6;
-    border-radius: 10px;
-    width: 418px;
-    height: 79px;
-    padding-left: 35px;
-    font-size: 20px;
-    color: #BEBEBE
 }
 
-.input_emile {
-    border: none;
+.input_info input:focus{
+    border-color: #2FBB00;
+    outline: none;
+}
+
+.input_name::placeholder{
+    color: #BEBEBE;
+}
+.input_emile::placeholder{
+    color: #BEBEBE;
+}
+.input_name {
+    margin-bottom: 17px;
+    border: 2px solid #EDEDED;
     background-color: #F6F6F6;
     border-radius: 10px;
     width: 418px;
     height: 79px;
     padding-left: 35px;
     font-size: 20px;
-    color: #BEBEBE
+    color: #BEBEBE;
+}
+
+
+
+.input_emile {
+    background-color: #F6F6F6;
+    border-radius: 10px;
+    width: 418px;
+    height: 79px;
+    padding-left: 35px;
+    font-size: 20px;
+    color: #BEBEBE;
+
+    border: 2px solid #EDEDED;
+    
+    
 }
 
 
@@ -782,12 +807,20 @@ header {
 
 
 
+.title_comments{
+    width: 265px;
+    margin: 0 auto;
+}
+
 .title_comments h1 {
+
+    width: 265px;
+    margin: 0 auto;
     font-family: 'Gilroy ExtraBold', sans-serif;
     font-weight: 800;
     font-size: 70px;
     padding: 0px;
-    padding-left: 461px;
+    /* padding-left: 461px; */
     padding-bottom: 47px;
     letter-spacing: 2px;
 }
@@ -1023,11 +1056,7 @@ header {
     color: #F6F6F6;
     width: 16px;
     height: 16px;
-}
-
-
-.social_media a :nth-child(1) {
-    padding-right: 52px;
+    margin-right: 52px;
 }
 
 
@@ -1293,7 +1322,7 @@ header {
 
     .text p {
         font-size: 12px;
-        width: 200px;
+        width: 250px;
         margin: 0;
     }
 
