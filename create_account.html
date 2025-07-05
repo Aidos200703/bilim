@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image" href="img/mdi_education-outline.png">
-    <link rel="stylesheet" href="login_style.css">
+    <link rel="stylesheet" href="create_account_style.css">
 
 
 
@@ -31,7 +31,7 @@
 
 
         <div class="btn_entrance">
-            <a href="index.html" class="btn_entrance_main">
+            <a href="login.html" class="btn_entrance_main">
                 <img src="img/to_back.png" alt="">
                 <p>Назад</p>
                 
@@ -50,6 +50,12 @@
                     </h1>
                 </div>
                 <div class="input">
+                    <div class="input_name">
+                        <input type="text" placeholder="Имя">
+                    </div>
+                    <div class="input_surname">
+                        <input type="text" placeholder="Фамилия">
+                    </div>
                     <div class="input_email">
                         <input type="email" placeholder="Электронная почта">
                     </div>
@@ -59,8 +65,11 @@
                             <img src="img/eye-off-icon.png" id="eyeIcon" alt="Show/Hide">
                         </span>
                     </div>
-                    <div class="forget_password">
-                        <a href="">Забыли пароль?</a>
+                    <div class="input_repeat_password">
+                        <input type="password" placeholder="Повторите пароль"  id="passwordInputRepeat">
+                        <span class="toggle-password-for_repeat" onclick="togglePasswordRepeat()">
+                            <img src="img/eye-off-icon.png" id="eyeIconRepeat" alt="Show/Hide">
+                        </span>
                     </div>
 
                     <div class="inter">
@@ -79,13 +88,13 @@
                 </div>
 
                 <div class="create_account">
-                    <a href="create_account.html">Нужна учетная запись? <span>Создайте ее</span></a>
+                    <a href="login.html">Уже есть аккаунт?  <span>Войдите</span></a>
                 </div>
 
             </div>
             
         </div>
     </div>
-    <script src="login_script.js"></script>
+    <script src="create_account_script.js"></script>
 </body>
 </html>

@@ -126,7 +126,7 @@ header {
 
 .container{
     width: 485px;
-    height: 620px;
+    height: 838px;
     background-color: #F6F6F6;
     box-shadow: 1px 1px 11.8px 0px #0000001A;
     border-radius: 50px;
@@ -152,11 +152,11 @@ header {
     padding-bottom: 19px;
 }
 
-.input,.input_email,.input_password{
+.input,.input_name,.input_password{
     width: 485px;
 }
 
-.input_email input{
+.input_name input, .input_surname input, .input_email input{
     width: 324px;
     height: 50px;
     border-radius: 10px;
@@ -171,12 +171,12 @@ header {
     background-color: #F6F6F6;
 }   
 
-.input_email input:focus {
+.input_name input:focus, .input_surname input:focus, .input_email input:focus {
     border-color: #2FBB00; /* Жасыл түс */
     outline: none;         /* Көк контурды алып тастау үшін */
 }
 
-.input_password input{
+.input_password input, .input_repeat_password input{
     width: 324px;
     height: 50px;
     border-radius: 10px;
@@ -191,7 +191,12 @@ header {
     border-color: #CFCFCF;
     background-color: #F6F6F6;
 }
-.input_password input:focus {
+
+.input_repeat_password{
+    margin-bottom: 35px;
+}
+
+.input_password input:focus, .input_repeat_password input:focus {
     border-color: #2FBB00; /* Жасыл түс */
     outline: none;         /* Көк контурды алып тастау үшін */
 }
@@ -201,11 +206,19 @@ header {
 }
 
 .toggle-password {
-    position: absolute;
+    position: relative;
     cursor: pointer;
     
-    top: 16px;
-    left: 299px;
+    top: 5px;
+    left: -48px;
+
+}
+.toggle-password-for_repeat {
+    position: relative;
+    cursor: pointer;
+    
+    top: 7px;
+    left: -48px;
 }
 
 .toggle-password img {
@@ -216,33 +229,14 @@ header {
     opacity: 0.5;
 }
 
-.forget_password{
-    
-    text-align: right;
-    width: 345px;
-    padding-bottom: 30px;
-   
-}
 
-.forget_password a{
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: 600;
-    font-family: 'Gilroy Light', sans-serif;
-    color: #2FB403;
-    
-    
-    width: 345px;
-}
 
 .inter{
     width: 345px;
    margin-bottom: 37px;
   }
 
-  .inter_btn{
-    
-  }
+ 
 
   .inter a{
 
