@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -97,4 +98,105 @@
     </div>
     <script src="create_account_script.js"></script>
 </body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image" href="img/mdi_education-outline.png">
+    <link rel="stylesheet" href="create_account_style.css">
+
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>BilimAly</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/mdi_education-outline.png" alt="#">
+            <h1>BilimAly</h1>
+        </div>
+
+        <div class="menu">
+            <a href="index.html#pro">Как проходить обучение</a>
+            <a href="index.html#course">Курсы</a>
+            <a href="index.html#teachers">Предопаватели</a>
+            <a href="index.html#comments" class="last_link">Отзывы</a>
+        </div>
+
+
+        <div class="btn_entrance">
+            <a href="login.html" class="btn_entrance_main">
+                <img src="img/to_back.png" alt="">
+                <p>Назад</p>
+                
+            </a>
+        </div>
+
+        <!-- <div id="menu-bar" class="fa-solid fa-bars"></div> -->
+    </header>
+
+    <div class="container">
+        <div class="for_login">
+            <div class="content">
+                <div class="title">
+                    <h1>Войдите в аккаунт  <br>
+                        BilimAly
+                    </h1>
+                </div>
+                <div class="input">
+                    <div class="input_name">
+                        <input type="text" placeholder="Имя">
+                    </div>
+                    <div class="input_surname">
+                        <input type="text" placeholder="Фамилия">
+                    </div>
+                    <div class="input_email">
+                        <input type="email" placeholder="Электронная почта">
+                    </div>
+                    <div class="input_password">
+                        <input type="password" placeholder="Пароль"  id="passwordInput">
+                        <span class="toggle-password" onclick="togglePassword()">
+                            <img src="img/eye-off-icon.png" id="eyeIcon" alt="Show/Hide">
+                        </span>
+                    </div>
+                    <div class="input_repeat_password">
+                        <input type="password" placeholder="Повторите пароль"  id="passwordInputRepeat">
+                        <span class="toggle-password-for_repeat" onclick="togglePasswordRepeat()">
+                            <img src="img/eye-off-icon.png" id="eyeIconRepeat" alt="Show/Hide">
+                        </span>
+                    </div>
+
+                    <div class="inter">
+                        <a class="inter_btn" href="#">Войти</a>
+                    </div>
+
+                    <div class="divider">
+                        <span>Или</span>
+                      </div>
+                </div>
+
+                <div class="another_login">
+                    <a href="#">Войти через <b class="google">Google</b> </a>
+                    <img src="img/google.png" alt="">
+
+                </div>
+
+                <div class="create_account">
+                    <a href="login.html">Уже есть аккаунт?  <span>Войдите</span></a>
+                </div>
+
+            </div>
+            
+        </div>
+    </div>
+    <script src="create_account_script.js"></script>
+</body>
+>>>>>>> 2b9c9c6991914b74f95219d86c2d15aa8dafb34d
 </html>
