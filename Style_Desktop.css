@@ -1,81 +1,69 @@
 @font-face {
     font-family: 'Gilroy ExtraBold';
-    src: url('fonts/Gilroy/Gilroy-ExtraBold.otf') format('opentype');
-    font-style: normal;
+    src: url('fonts/Gilroy/Gilroy-ExtraBold.otf')format('opentype');
+    font-style: normal
 }
 
 @font-face {
     font-family: 'Gilroy Light';
-    src: url('fonts/Gilroy/Gilroy-Light.otf') format('opentype');
-    font-style: normal;
+    src: url('fonts/Gilroy/Gilroy-Light.otf')format('opentype');
+    font-style: normal
 }
-
-
 
 html {
     scroll-behavior: smooth;
-    margin: 0;
+    margin: 0
 }
 
 body {
-    /* margin-left: 150px; */
     background-color: #F6F6F6;
-    margin: 0;
+    margin: 0
 }
-
-/* body::-webkit-scrollbar{
-    width: 0;
-} */
 
 * {
     font-family: 'Gilroy ExtraBold', sans-serif;
     font-weight: 600;
-    margin: 0;
-
+    margin: 0
 }
 
 ::selection {
     background-color: #2FBB00;
-    color: #F6F6F6;
+    color: #F6F6F6
 }
-
 
 header {
     width: 1239px;
     padding-top: 24px;
     display: flex;
     margin: 0 auto;
-    align-items: center;
-
+    align-items: center
 }
 
 .logo {
     margin: 0;
     display: flex;
-    align-items: center;
+    align-items: center
 }
 
 .logo img {
     width: 53px;
-    height: 53px;
+    height: 53px
 }
 
 .logo h1 {
     color: #238D00;
     font-family: "Afacad Flux", sans-serif;
     padding-right: 140px;
-
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
     font-variation-settings: "slnt" 0;
     font-size: 40px;
-    padding-left: 8px;
+    padding-left: 8px
 }
 
 .menu {
-    padding-right: 140px;
-
+    padding-right: 140px
 }
 
 .menu a {
@@ -84,75 +72,65 @@ header {
     font-size: 20px;
     color: #171717;
     padding-right: 20px;
-    font-family: 'Gilroy Light';
+    font-family: 'Gilroy Light'
 }
 
 #menu-bar {
-    font-size: calc(20px + (30-20)*((100vw-300px)/(1600-300)));
-    ;
+    font-size: calc(20px+(30-20)*((100vw-300px)/(1600-300)));
     cursor: pointer;
     color: #222;
-    border: .1rem solid #222;
+    border: .1rem solid#222;
     padding: 10px 13px;
     border-radius: 0.3rem;
-    display: none;
+    display: none
 }
-
 
 .btn_entrance p {
     padding-right: 9px;
-    letter-spacing: 2px;
+    letter-spacing: 2px
 }
 
 .btn_entrance_main {
-
     padding-left: 100PX;
     background-color: #2FBB00;
     padding: 10px 15px;
     border-radius: 5px;
-
     display: flex;
     text-decoration: none;
     font-family: 'Gilroy', sans-serif;
     font-weight: 700;
-    color: #F6F6F6;
-
+    color: #F6F6F6
 }
 
 .btn_entrance a img {
     width: 17px;
-    height: 17px;
-
+    height: 17px
 }
 
 .container {
     padding-top: 120px;
     margin: 0 auto;
     width: 1239px;
-    padding-bottom: 145px;
+    padding-bottom: 145px
 }
 
 .content {
     display: flex;
     align-items: center;
     padding: auto;
-    margin: auto;
+    margin: auto
 }
-
-
 
 .left_content {
-    padding-right: 50px;
+    padding-right: 50px
 }
-
 
 .title_left_content {
     font-family: 'Gilroy ExtraBold', sans-serif;
     font-weight: 800;
     padding-bottom: 20px;
     font-size: 70px;
-    width: 600px;
-
+    width: 600px
 }
 
 .subtitle_left_content {
@@ -161,7 +139,7 @@ header {
     width: 471px;
     padding-bottom: 90px;
     font-size: 20px;
-    letter-spacing: 1px;
+    letter-spacing: 1px
 }
 
 .btn_left_content a {
@@ -172,14 +150,14 @@ header {
     border-radius: 10px;
     color: #F6F6F6;
     font-size: 24px;
-    letter-spacing: 2px;
+    letter-spacing: 2px
 }
 
 .right_content {
     width: 600px;
     align-items: center;
     justify-content: center;
-    display: flex;
+    display: flex
 }
 
 .bg_colour_green {
@@ -188,18 +166,15 @@ header {
     height: 600px;
     position: absolute;
     rotate: -20deg;
-    border-radius: 50px;
+    border-radius: 50px
 }
 
 .text_front_video {
-    /* position: absolute; */
-    
     margin-top: 410px;
-    padding-right: 160px;
-
+    padding-right: 160px
 }
 
-.text_front_video p{
+.text_front_video p {
     position: relative;
     background-color: #F6F6F6;
     padding: 20px 20px 20px 20px;
@@ -207,7 +182,7 @@ header {
     font-size: 20px;
     font-family: 'Gilroy Light', sans-serif;
     font-weight: 600;
-    border-radius: 10px;
+    border-radius: 10px
 }
 
 .all_video_elements {
@@ -215,25 +190,24 @@ header {
     display: flex;
     align-items: center;
     overflow-x: auto;
-    width: 452px;
+    width: 452px
 }
 
 .all_video_elements::-webkit-scrollbar {
-    width: 0;
+    width: 0
 }
-
 
 .left_btn,
 .right_btn {
-    cursor: pointer;
+    cursor: pointer
 }
 
 .left_btn {
-    padding-right: 11px;
+    padding-right: 11px
 }
 
 .right_btn {
-    padding-left: 11px;
+    padding-left: 11px
 }
 
 .first_video {
@@ -243,33 +217,32 @@ header {
     padding-right: 11px;
     background-color: #828282;
     padding: 0;
-    border-radius: 50px;
+    border-radius: 50px
 }
 
 .second_video {
     display: none;
-    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    clip-path: polygon(0 0, 100%0, 100%0, 0 0)
 }
 
-.second_video .active {
+.second_video.active {
     display: block;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100%0, 100%100%, 0 100%)
 }
-
 
 .process {
     width: 1239px;
     margin: 0 auto;
-    padding-bottom: 100px;
+    padding-bottom: 100px
 }
 
 .top_process {
     margin-left: 110px;
-    margin-bottom: 61px;
+    margin-bottom: 61px
 }
 
 .title_process {
-    align-items: center;
+    align-items: center
 }
 
 .title_process h1 {
@@ -279,7 +252,7 @@ header {
     text-align: center;
     width: 940px;
     padding-bottom: 20px;
-    letter-spacing: 2px;
+    letter-spacing: 2px
 }
 
 .subtitle_process p {
@@ -289,8 +262,7 @@ header {
     padding-left: 190px;
     width: 537px;
     justify-content: center;
-
-    font-size: 20px;
+    font-size: 20px
 }
 
 .title_sub_hiden {
@@ -300,33 +272,31 @@ header {
     text-align: center;
     width: 537px;
     justify-content: center;
-
-    font-size: 20px;
+    font-size: 20px
 }
 
 .button_process {
     display: flex;
-    align-items: center;
+    align-items: center
 }
 
 .video_process video {
     width: 553px;
     height: 310px;
     border-radius: 50px;
-    margin-top: 10px;
+    margin-top: 10px
 }
-
 
 .text {
     padding-bottom: 40px;
     display: flex;
-    margin-left: 56px;
+    margin-left: 56px
 }
 
 .text img {
     width: 51px;
     height: 51px;
-    padding-right: 40px;
+    padding-right: 40px
 }
 
 .text p {
@@ -335,18 +305,16 @@ header {
     font-size: 24px;
     width: 500px;
     margin: auto;
-    line-height: 120%;
+    line-height: 120%
 }
 
 .text:nth-child(4) {
-    padding-bottom: 0px;
+    padding-bottom: 0px
 }
-
-
 
 .course {
     width: 1239px;
-    margin: 0 auto;
+    margin: 0 auto
 }
 
 .title_cou h1 {
@@ -356,7 +324,7 @@ header {
     width: 212px;
     padding-left: 490px;
     padding-bottom: 20px;
-    letter-spacing: 2px;
+    letter-spacing: 2px
 }
 
 .subtitle_cou p {
@@ -366,33 +334,24 @@ header {
     text-align: center;
     width: 538px;
     padding-left: 340px;
-    padding-bottom: 53px;
+    padding-bottom: 53px
 }
-
-
-
-
-
 
 .title_subject {
     font-size: 24px;
     font-family: 'Gilroy Light', sans-serif;
     font-weight: 700;
     padding-bottom: 68px;
-    letter-spacing: 1px;
+    letter-spacing: 1px
 }
-
-
 
 .subjuct {
-
-    padding-bottom: 110px;
+    padding-bottom: 110px
 }
-
 
 .navbar {
     display: block;
-    list-style: none;
+    list-style: none
 }
 
 .navbar a {
@@ -402,7 +361,7 @@ header {
     padding: 20px 20px;
     border: solid black 1px;
     border-radius: 10px;
-    cursor: pointer;
+    cursor: pointer
 }
 
 .navbar a {
@@ -410,11 +369,8 @@ header {
     font-weight: 700;
     text-decoration: none;
     color: #171717;
-
     font-size: 20px;
-    letter-spacing: 1px;
-
-
+    letter-spacing: 1px
 }
 
 .nav_cuts1 {
@@ -422,7 +378,7 @@ header {
     padding-bottom: 60px;
     width: 1239px;
     margin: 0 auto;
-    justify-content: center;
+    justify-content: center
 }
 
 .nav_cuts2 {
@@ -430,47 +386,40 @@ header {
     padding-bottom: 60px;
     width: 1239px;
     margin: 0 auto;
-    justify-content: center;
+    justify-content: center
 }
-
-
 
 .nav_cuts3 {
     width: 1239px;
     margin: 0 auto;
-    text-align: center;
+    text-align: center
 }
 
 .sp {
     font-family: 'Gilroy ExtraBold', sans-serif;
     font-weight: 700;
     margin-left: 350px;
-    font-size: 20px;
+    font-size: 20px
 }
-
-
 
 .cards {
     display: flex;
     overflow-x: auto;
     padding-top: 20px;
-    padding-bottom: 100px;
-
+    padding-bottom: 100px
 }
 
-/* .btn_sub1 , */
 .btn_sub2 {
     position: absolute;
     width: 52px;
     height: 52px;
     padding-top: 262px;
-    margin-left: 1080px;
+    margin-left: 1080px
 }
 
 .cards::-webkit-scrollbar {
-    width: 0px;
+    width: 0px
 }
-
 
 .bg_card {
     width: 245px;
@@ -479,49 +428,46 @@ header {
     box-shadow: 2px 2px 13.4px 0px rgba(0, 0, 0, 0.1);
     border-radius: 50px;
     margin-right: 40px;
-    margin-left: 5px;
+    margin-left: 5px
 }
 
 .bg_card img {
-
     width: 246px;
     height: 174px;
-    padding-bottom: 13px;
+    padding-bottom: 13px
 }
 
 .bg_card h1 {
     font-family: 'Gilroy ExtraBold', sans-serif;
     font-size: 20px;
     font-weight: 700;
-    padding-bottom: 13px;
+    padding-bottom: 13px
 }
 
 .card_infos {
-    padding-bottom: 30px;
+    padding-bottom: 30px
 }
 
 .info_card {
     display: flex;
     align-items: center;
-    padding-bottom: 14px;
-
+    padding-bottom: 14px
 }
 
 .info_card p {
     font-family: 'Gilroy Light', sans-serif;
-    font-weight: 700;
+    font-weight: 700
 }
 
 .info_card img {
     width: 20px;
     height: 20px;
-    padding-right: 11px;
+    padding-right: 11px
 }
-
 
 .btn_buy {
     display: flex;
-    align-items: center;
+    align-items: center
 }
 
 .btn_buy a {
@@ -532,44 +478,39 @@ header {
     color: #F6F6F6;
     text-decoration: none;
     border-radius: 10px;
-    margin-right: 9px;
+    margin-right: 9px
 }
 
 .price {
     font-weight: 700;
     font-size: 20px;
-    color: #171717;
+    color: #171717
 }
-
-
 
 .teachers {
     width: 1239px;
     margin: 0 auto;
-    padding-bottom: 118px;
+    padding-bottom: 118px
 }
 
 .title_teachers {
     text-align: center;
     width: 1210px;
-    padding-bottom: 57px;
+    padding-bottom: 57px
 }
 
 .title_teachers h1 {
     font-family: 'Gilroy ExtraBold', sans-serif;
     font-weight: 800;
     font-size: 70px;
-    letter-spacing: 2px;
-    /* padding-left: 315px; */
+    letter-spacing: 2px
 }
 
 .title_teachers p {
     font-family: 'Gilroy Light', sans-serif;
     font-weight: 600;
     padding: 0px;
-    /* padding-left: 315px; */
-
-    font-size: 20px;
+    font-size: 20px
 }
 
 .teacher {
@@ -579,39 +520,35 @@ header {
     display: flex;
     align-items: center;
     padding: 0px;
-    margin-left: 160px;
+    margin-left: 160px
 }
 
 .teacher::-webkit-scrollbar {
-    width: 0px;
+    width: 0px
 }
 
 .teacher img {
     width: 52px;
-    height: 52px;
-
+    height: 52px
 }
 
 .one_two_teachers,
 .three_four_teachers {
-    display: flex;
+    display: flex
 }
-
-
 
 .left-btn {
     position: absolute;
     padding-top: 350px;
     padding-left: 97px;
-    cursor: pointer;
+    cursor: pointer
 }
 
 .btn_right {
     position: absolute;
     margin-left: 900px;
-    cursor: pointer;
+    cursor: pointer
 }
-
 
 .card-teachers {
     position: relative;
@@ -622,30 +559,30 @@ header {
     margin-right: 29px;
     margin-bottom: 10px;
     margin-left: 10px;
-    margin-top: 10px;
+    margin-top: 10px
 }
 
 .card_teacher img {
     width: 352px;
     height: 325px;
-    padding-bottom: 20px;
+    padding-bottom: 20px
 }
 
 .name-teacher {
-    padding-bottom: 21px;
+    padding-bottom: 21px
 }
 
 .name-teacher h1 {
     font-family: 'Gilroy ExtraBold', sans-serif;
     font-weight: 700;
     font-size: 32px;
-    font-weight: 700;
+    font-weight: 700
 }
 
 .name-teacher p {
     font-family: 'Gilroy Light', sans-serif;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 20px
 }
 
 .info_teacher p {
@@ -653,27 +590,26 @@ header {
     font-weight: 600;
     width: 335px;
     font-size: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 20px
 }
 
 .count_student h1 {
     font-family: 'Gilroy ExtraBold', sans-serif;
     font-weight: 800;
     font-weight: 700;
-    font-size: 32px;
+    font-size: 32px
 }
 
 .count_student p {
     font-family: 'Gilroy ExtraBold', sans-serif;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 20px
 }
-
 
 .trial_lesson {
     width: 1470px;
     margin: 0 auto;
-    margin-bottom: 143px;
+    margin-bottom: 143px
 }
 
 .bg_lesson {
@@ -683,8 +619,7 @@ header {
     width: 1436px;
     height: 570px;
     background-color: rgba(47, 187, 0, 1);
-    border-radius: 50px;
-
+    border-radius: 50px
 }
 
 .trial {
@@ -698,56 +633,55 @@ header {
     border-radius: 50px;
     width: 1239px;
     padding-left: 110px;
-    margin: 0 auto;
+    margin: 0 auto
 }
 
 .left_blok {
     margin-right: 90px;
-    margin-bottom: 30px;
+    margin-bottom: 30px
 }
-
 
 .title_tiral_lesson h1 {
     width: 481px;
     font-size: 70px;
     font-family: 800;
-    padding-bottom: 20px;
+    padding-bottom: 20px
 }
 
 .title_tiral_lesson p {
     font-weight: 600;
     font-size: 20px;
-    padding-bottom: 42px;
+    padding-bottom: 42px
 }
-.input_name input:focus{
+
+.input_name input:focus {
+    border-color: #2FBB00
+}
+
+.input_info input:focus {
     border-color: #2FBB00;
-
+    outline: none
 }
 
-.input_info input:focus{
-    border-color: #2FBB00;
-    outline: none;
+.input_name::placeholder {
+    color: #BEBEBE
 }
 
-.input_name::placeholder{
-    color: #BEBEBE;
+.input_emile::placeholder {
+    color: #BEBEBE
 }
-.input_emile::placeholder{
-    color: #BEBEBE;
-}
+
 .input_name {
     margin-bottom: 17px;
-    border: 2px solid #EDEDED;
+    border: 2px solid#EDEDED;
     background-color: #F6F6F6;
     border-radius: 10px;
     width: 418px;
     height: 79px;
     padding-left: 35px;
     font-size: 20px;
-    color: #BEBEBE;
+    color: #BEBEBE
 }
-
-
 
 .input_emile {
     background-color: #F6F6F6;
@@ -757,15 +691,11 @@ header {
     padding-left: 35px;
     font-size: 20px;
     color: #BEBEBE;
-
-    border: 2px solid #EDEDED;
-    
-    
+    border: 2px solid#EDEDED
 }
 
-
 .sing_in_to_lesson {
-    padding-top: 60px;
+    padding-top: 60px
 }
 
 .sing_in_to_lesson a {
@@ -774,158 +704,143 @@ header {
     padding: 25px 35px;
     text-decoration: none;
     color: rgba(246, 246, 246, 1);
-    font-size: 24px;
+    font-size: 24px
 }
 
 .right_blok img {
     margin-top: 88px;
     width: 739.81px;
     height: 490px;
-    left: 0;
+    left: 0
 }
 
 .comment {
-    left: 0;
+    left: 0
 }
 
 .comments {
     padding-bottom: 109px;
     position: relative;
     width: 1239px;
-    margin: 0 auto;
+    margin: 0 auto
 }
 
 .all_comment {
     width: 1250px;
     display: flex;
-    overflow-x: auto;
+    overflow-x: auto
 }
 
 .all_comment::-webkit-scrollbar {
-    width: 0;
+    width: 0
 }
 
-
-
-.title_comments{
+.title_comments {
     width: 265px;
-    margin: 0 auto;
+    margin: 0 auto
 }
 
 .title_comments h1 {
-
     width: 265px;
     margin: 0 auto;
     font-family: 'Gilroy ExtraBold', sans-serif;
     font-weight: 800;
     font-size: 70px;
     padding: 0px;
-    /* padding-left: 461px; */
     padding-bottom: 47px;
-    letter-spacing: 2px;
+    letter-spacing: 2px
 }
 
 .btn_comment_left {
     position: absolute;
     margin-top: 209px;
-    margin-left: 150px;
+    margin-left: 150px
 }
 
 .btn_comment_right {
     position: absolute;
     margin: 0;
     margin-left: 1039px;
-    margin-top: 209px;
+    margin-top: 209px
 }
 
 .comment {
     border-radius: 25px;
     background-color: rgba(246, 246, 246, 1);
-    box-shadow: 2px 2px 14.9px -4px rgba(0, 0, 0, 0.25);
+    box-shadow: 2px 2px 14.9px-4px rgba(0, 0, 0, 0.25);
     padding: 51px;
     width: 623px;
     height: 271px;
-
-    margin: 20px auto;
+    margin: 20px auto
 }
 
 .comment {
-    display: block;
+    display: block
 }
-
-/* .comment.active, .comment:first-child { display: flex; } */
 
 .name_photo {
     display: flex;
     align-items: center;
-    padding-bottom: 25px;
+    padding-bottom: 25px
 }
 
 .name_photo img {
     width: 60px;
     height: 60px;
     padding-right: 23px;
-    border-radius: 100px;
+    border-radius: 100px
 }
 
 .name_photo h1 {
     font-size: 32px;
     font-family: 'Gilroy ExtraBold', sans-serif;
     font-weight: 700;
-    letter-spacing: 1px;
+    letter-spacing: 1px
 }
 
 .com p {
     width: 634px;
     font-family: 'Gilroy Light', sans-serif;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 20px
 }
-
-
-
-
-
-
 
 .contacts {
     left: 0;
     background-color: rgb(0, 0, 0);
     height: 425px;
-    margin: 0 auto;
+    margin: 0 auto
 }
 
 .all_contact {
     width: 1239px;
     margin: 0 auto;
-    padding: 40px 0px;
+    padding: 40px 0px
 }
-
 
 .logo_cours {
     width: 1239px;
     display: block;
     align-items: center;
-    margin: 0 auto;
+    margin: 0 auto
 }
-
 
 .logo_cours_info {
     display: flex;
-    padding-bottom: 30px;
+    padding-bottom: 30px
 }
 
 .logo_contact {
     display: flex;
     cursor: pointer;
     width: 190px;
-    margin-right: 94px;
+    margin-right: 94px
 }
 
 .logo_cours img {
     width: 53px;
     height: 53px;
-    padding-right: 10px;
+    padding-right: 10px
 }
 
 .logo_cours h1 {
@@ -933,15 +848,13 @@ header {
     color: rgba(246, 246, 246, 1);
     font-size: 40px;
     font-weight: 600;
-    padding-bottom: 30px;
+    padding-bottom: 30px
 }
-
-
 
 .about_company {
     color: #F6F6F6;
     width: 447px;
-    padding-right: 103px;
+    padding-right: 103px
 }
 
 .title_about_company {
@@ -949,21 +862,19 @@ header {
     font-family: 'Gilroy Light';
     font-weight: 600;
     padding-bottom: 30px;
-    letter-spacing: 1px;
+    letter-spacing: 1px
 }
 
 .about_company p {
     font-size: 20px;
     font-family: 'Gilroy Light';
     font-weight: 600;
-    letter-spacing: 1px;
+    letter-spacing: 1px
 }
-
-
 
 .useful {
     color: #F6F6F6;
-    padding-right: 103px;
+    padding-right: 103px
 }
 
 .title_useful {
@@ -971,7 +882,7 @@ header {
     font-family: 'Gilroy Light';
     font-weight: 600;
     padding-bottom: 30px;
-    letter-spacing: 1px;
+    letter-spacing: 1px
 }
 
 .menu_contacts a {
@@ -983,14 +894,11 @@ header {
     padding-bottom: 20px;
     font-family: 'Gilroy Light';
     font-weight: 600;
-    letter-spacing: 1px;
+    letter-spacing: 1px
 }
 
-
-
-
 .contact_info {
-    color: #F6F6F6;
+    color: #F6F6F6
 }
 
 .place p {
@@ -998,20 +906,19 @@ header {
     font-weight: 600;
     letter-spacing: 1px;
     font-size: 20px;
-    padding-bottom: 16px;
+    padding-bottom: 16px
 }
 
 .number {
     display: flex;
     align-items: center;
-    padding-bottom: 16px;
+    padding-bottom: 16px
 }
 
 .number img {
     width: 12px;
     height: 12px;
-    padding-right: 5px;
-
+    padding-right: 5px
 }
 
 .number a {
@@ -1020,23 +927,21 @@ header {
     font-family: 'Gilroy Light';
     font-weight: 600;
     letter-spacing: 1px;
-    font-size: 20px;
+    font-size: 20px
 }
 
 .icon_email {
     width: 12px;
     height: 12px;
-    padding-right: 5px;
-
+    padding-right: 5px
 }
 
 .email {
-    padding-bottom: 16px;
-
+    padding-bottom: 16px
 }
 
-.email_link_for_mobile{
-    display: none;
+.email_link_for_mobile {
+    display: none
 }
 
 .email a {
@@ -1045,35 +950,27 @@ header {
     letter-spacing: 1px;
     font-size: 20px;
     text-decoration: none;
-    color: #F6F6F6;
-
+    color: #F6F6F6
 }
-
-
 
 .social_media a {
     text-decoration: none;
     color: #F6F6F6;
     width: 16px;
     height: 16px;
-    margin-right: 52px;
+    margin-right: 52px
 }
-
-
 
 .title_contact_info {
     font-size: 24px;
     font-family: 'Gilroy Light';
     font-weight: 600;
     padding-bottom: 30px;
-    letter-spacing: 1px;
+    letter-spacing: 1px
 }
 
-
-
-
 .menu_contacts a:nth-child(4) {
-    padding: 0px;
+    padding: 0px
 }
 
 .security p {
@@ -1081,60 +978,54 @@ header {
     font-weight: 100;
     letter-spacing: 1px;
     font-size: 12px;
-    color: #F6F6F6;
+    color: #F6F6F6
 }
 
+@media(max-width:501px) {
 
-
-@media (max-width:501px) {
-
-    html, body {
+    html,
+    body {
         width: 100%;
         max-width: 100vw;
         margin: 0;
-        padding: 0;
+        padding: 0
     }
-
-    
 
     header {
         padding-top: 10px;
         width: 320px;
         margin: 0 auto;
-        padding-right: 0px;
+        padding-right: 0px
     }
 
     .logo img {
         width: 30px;
-        height: 30px;
+        height: 30px
     }
 
     .logo h1 {
         color: #238D00;
         font-family: "Afacad Flux", sans-serif;
         padding-right: 76px;
-
         font-optical-sizing: auto;
         font-weight: 600;
         font-style: normal;
         font-variation-settings: "slnt" 0;
         font-size: 24px;
-        padding-left: 8px;
+        padding-left: 8px
     }
 
     .menu {
-        padding-right: 0px;
-
+        padding-right: 0px
     }
 
     .menu a {
         display: block;
-        /* display: none; */
         margin: 0;
         text-align: center;
         font-size: 14px;
         padding-right: 0px;
-        padding-bottom: 0px;
+        padding-bottom: 0px
     }
 
     #menu-bar {
@@ -1142,7 +1033,7 @@ header {
         border: 0px
     }
 
-    header .menu {
+    header.menu {
         position: absolute;
         top: 7%;
         right: 2rem;
@@ -1153,248 +1044,233 @@ header {
         display: flex;
         flex-direction: column;
         gap: 1.5rem;
-        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        clip-path: polygon(0 0, 100%0, 100%0, 0 0)
     }
 
-    header .menu.active {
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    header.menu.active {
+        clip-path: polygon(0 0, 100%0, 100%100%, 0 100%)
     }
 
     .btn_entrance {
-        padding-right: 10px;
+        padding-right: 10px
     }
 
     .btn_entrance_main {
-
         background-color: #2FBB00;
         padding: 8px 13px;
         border-radius: 5px;
-
         display: flex;
         text-decoration: none;
         font-family: 'Gilroy', sans-serif;
         font-weight: 700;
-        color: #F6F6F6;
-
+        color: #F6F6F6
     }
 
     .btn_entrance a img {
         width: 15px;
-        height: 15px;
-
+        height: 15px
     }
 
     .btn_entrance p {
         font-size: 14px;
-        padding-right: 9px;
+        padding-right: 9px
     }
 
     .container {
         padding-top: 57px;
         margin: 0 auto;
         width: 320px;
-        padding-bottom: 93px;
+        padding-bottom: 93px
     }
 
     .content {
-        display: block;
+        display: block
     }
 
     .left_content {
-        padding-bottom: 60px;
+        padding-bottom: 60px
     }
 
     .title_left_content {
         padding-bottom: 10px;
         font-size: 36px;
-        width: 313px;
+        width: 313px
     }
 
     .subtitle_left_content {
         width: 277px;
         padding-bottom: 60px;
-        font-size: 12px;
+        font-size: 12px
     }
 
     .btn_left_content a {
         padding: 20px 25px;
         border-radius: 10px;
-        font-size: 16px;
+        font-size: 16px
     }
 
     .right_content {
-        width: 320px;
-
+        width: 320px
     }
 
     .bg_colour_green {
-
         width: 184px;
         height: 300px;
-        border-radius: 50px;
+        border-radius: 50px
     }
 
     .all_video_elements {
-        width: 184px;
+        width: 184px
     }
 
     .first_video {
         width: 184px;
         height: 300px;
-        border-radius: 50px;
+        border-radius: 50px
     }
 
     .left_btn {
         padding-right: 11px;
         width: 29px;
-        height: 29px;
+        height: 29px
     }
 
     .right_btn {
         padding-left: 11px;
         width: 29px;
-        height: 29px;
+        height: 29px
     }
 
     .text_front_video {
         width: 162px;
         margin-top: 300px;
         padding: 10px 10px 10px 10px;
-        font-size: 10px;
+        font-size: 10px
     }
 
     .process {
         width: 320px;
         margin: 0 auto;
         padding-top: 0px;
-        padding-bottom: 66px;
+        padding-bottom: 66px
     }
 
     .top_process {
         width: 320px;
         margin: 0 auto;
         align-items: center;
-        padding-bottom: 40px;
+        padding-bottom: 40px
     }
 
     .title_process h1 {
         font-size: 36px;
         width: 320px;
-        padding-bottom: 20px;
+        padding-bottom: 20px
     }
 
     .subtitle_process {
-        width: 270px;
+        width: 270px
     }
 
     .subtitle_process p {
-
         padding-left: 10px;
         width: 290px;
         align-items: center;
-
-        font-size: 12px;
+        font-size: 12px
     }
 
-
     .button_process {
-        display: block;
+        display: block
     }
 
     .video_process video {
         width: 291px;
         height: 181px;
         border-radius: 40px;
-        margin-bottom: 30px;
+        margin-bottom: 30px
     }
 
     .text {
         padding-bottom: 20px;
         display: flex;
-        margin-left: 16px;
+        margin-left: 16px
     }
 
     .text img {
         width: 32px;
         height: 32px;
-        padding-right: 22px;
+        padding-right: 22px
     }
 
     .text p {
         font-size: 12px;
         width: 250px;
-        margin: 0;
+        margin: 0
     }
 
     .course {
         width: 320px;
-        margin: 0 auto;
+        margin: 0 auto
     }
 
     .cou {
         width: 320px;
         margin: 0 auto;
-        text-align: center;
+        text-align: center
     }
-
 
     .title_cou h1 {
         font-size: 36px;
         width: 320px;
         padding-left: 0px;
-        padding-bottom: 10px;
-
+        padding-bottom: 10px
     }
 
     .subtitle_cou p {
-
         font-size: 12px;
         width: 320px;
         padding-left: 0px;
-        padding-bottom: 53px;
+        padding-bottom: 53px
     }
 
     .title_subject {
         font-size: 16px;
-        padding-bottom: 21px;
+        padding-bottom: 21px
     }
 
     .subjuct {
         width: 320px;
         margin: 0 auto;
         padding-left: 0px;
-        padding-bottom: 50px;
+        padding-bottom: 50px
     }
 
     .special_subject {
-        width: 320px;
+        width: 320px
     }
 
     .navbar a {
-
         margin-right: 8px;
         padding: 10px 10px;
         border: solid black 1px;
         border-radius: 5px;
         cursor: pointer;
-        margin-bottom: 40px;
+        margin-bottom: 40px
     }
 
     .navbar a {
         font-size: 12px;
         height: 14px;
-        margin-bottom: 0px;
+        margin-bottom: 0px
     }
 
     .cut1,
     .cut2,
     .cut3,
     .cut4 {
-
         margin-bottom: 23px;
         width: 320px;
-
-        text-align: center;
+        text-align: center
     }
 
     .nav_cuts1 {
@@ -1402,7 +1278,7 @@ header {
         padding-bottom: 1px;
         width: 320px;
         margin: 0 auto;
-        justify-content: center;
+        justify-content: center
     }
 
     .nav_cuts2 {
@@ -1410,23 +1286,21 @@ header {
         padding-bottom: 1px;
         width: 320px;
         margin: 0 auto;
-        justify-content: center;
+        justify-content: center
     }
 
     .nav_cuts3 {
         width: 320px;
         margin: 0 auto;
-        text-align: center;
+        text-align: center
     }
 
-
-
     .cards {
-        padding-bottom: 66px;
+        padding-bottom: 66px
     }
 
     .bg_card {
-        width: 320px;
+        width: 320px
     }
 
     .bg_card {
@@ -1437,79 +1311,69 @@ header {
         box-shadow: 2px 2px 13.4px 0px rgba(0, 0, 0, 0.1);
         border-radius: 50px;
         margin-right: 40px;
-        margin-left: 5px;
+        margin-left: 5px
     }
 
     .bg_card img {
-
         width: 178px;
         height: 126px;
-        padding-bottom: 13px;
+        padding-bottom: 13px
     }
 
     .card_infos {
-        padding-bottom: 5px;
+        padding-bottom: 5px
     }
-
 
     .info_card img {
         width: 20px;
         height: 20px;
-        padding-right: 11px;
+        padding-right: 11px
     }
 
     .btn_buy a {
         font-weight: 400;
         padding: 10px 12px;
-        font-size: 16px;
+        font-size: 16px
     }
 
-
     .bg_card h1 {
-
-        font-size: 16px;
-
+        font-size: 16px
     }
 
     .info_card p {
-        font-size: 12px;
+        font-size: 12px
     }
 
     .price {
-        font-size: 16px;
+        font-size: 16px
     }
-
-
 
     .teachers {
         width: 320px;
         margin: 0 auto;
-        padding-bottom: 0px;
+        padding-bottom: 0px
     }
 
     .title_teachers {
         text-align: center;
         width: 320px;
-        padding-bottom: 33px;
+        padding-bottom: 33px
     }
 
     .title_teachers h1 {
         font-family: 'Gilroy ExtraBold', sans-serif;
         font-weight: 800;
         font-size: 36px;
-        padding-bottom: 10px;
-        /* padding-left: 315px; */
+        padding-bottom: 10px
     }
-
 
     .title_teachers p {
         font-size: 12px;
         width: 310px;
         text-align: center;
         width: 320px;
-        padding-bottom: 33px;
+        padding-bottom: 33px
     }
-
 
     .teacher {
         width: 320px;
@@ -1520,9 +1384,8 @@ header {
         display: flex;
         align-items: center;
         padding: 0px;
-        margin-left: 0px;
+        margin-left: 0px
     }
-
 
     .card-teachers {
         position: relative;
@@ -1533,64 +1396,63 @@ header {
         margin-right: 17px;
         margin-bottom: 10px;
         margin-left: 0px;
-        margin-top: 10px;
+        margin-top: 10px
     }
 
     .card_teacher img {
         width: 212px;
         height: 195px;
-        padding-bottom: 10px;
+        padding-bottom: 10px
     }
 
     .left-btn {
         position: absolute;
         padding-top: 350px;
         padding-left: 0px;
-        display: none;
+        display: none
     }
 
     .info_teacher p {
-
         width: 200px;
         font-size: 12px;
-        padding-bottom: 20px;
+        padding-bottom: 20px
     }
 
     .btn_right {
         position: absolute;
         margin-left: 260px;
         width: 29px;
-        height: 29px;
+        height: 29px
     }
 
     .name-teacher {
-        padding-bottom: 21px;
+        padding-bottom: 21px
     }
 
     .name-teacher h1 {
         font-family: 'Gilroy ExtraBold', sans-serif;
         font-weight: 700;
         font-size: 20px;
-        font-weight: 700;
+        font-weight: 700
     }
 
     .name-teacher p {
         font-family: 'Gilroy Light', sans-serif;
         font-weight: 600;
-        font-size: 12px;
+        font-size: 12px
     }
 
     .count_student h1 {
         font-family: 'Gilroy ExtraBold', sans-serif;
         font-weight: 800;
         font-weight: 700;
-        font-size: 20px;
+        font-size: 20px
     }
 
     .count_student p {
         font-family: 'Gilroy ExtraBold', sans-serif;
         font-weight: 600;
-        font-size: 12px;
+        font-size: 12px
     }
 
     .bg_lesson {
@@ -1600,8 +1462,7 @@ header {
         width: 324px;
         height: 522px;
         background-color: rgba(47, 187, 0, 1);
-        border-radius: 50px;
-
+        border-radius: 50px
     }
 
     .trial {
@@ -1615,37 +1476,36 @@ header {
         height: 530px;
         border-radius: 50px;
         width: 324px;
-
-        margin: 0 auto;
+        margin: 0 auto
     }
 
     .trial_lesson {
         width: 1470px;
         margin: 0 auto;
-        margin-bottom: 123px;
+        margin-bottom: 123px
     }
 
     .left_blok {
         padding: 32px 28px 0px 28px;
         height: 330px;
         margin-right: 0px;
-        margin-bottom: 0px;
+        margin-bottom: 0px
     }
 
     .right_blok {
-        width: 247.6px;
+        width: 247.6px
     }
 
     .title_tiral_lesson h1 {
         width: 257px;
         font-size: 36px;
-        padding-bottom: 6px;
+        padding-bottom: 6px
     }
 
     .title_tiral_lesson p {
         font-size: 16px;
         padding-bottom: 19px;
-        width: 260px;
+        width: 260px
     }
 
     .input_name {
@@ -1657,7 +1517,7 @@ header {
         height: 51px;
         padding-left: 15px;
         font-size: 16px;
-        color: #BEBEBE;
+        color: #BEBEBE
     }
 
     .input_emile {
@@ -1673,8 +1533,7 @@ header {
     }
 
     .sing_in_to_lesson {
-        padding-top: 40px;
-
+        padding-top: 40px
     }
 
     .sing_in_to_lesson a {
@@ -1684,7 +1543,7 @@ header {
         text-decoration: none;
         color: rgba(246, 246, 246, 1);
         font-size: 16px;
-        letter-spacing: 1px;
+        letter-spacing: 1px
     }
 
     .right_blok img {
@@ -1692,7 +1551,7 @@ header {
         margin-left: 47px;
         width: 247.6px;
         height: 165px;
-        left: 0;
+        left: 0
     }
 
     .comments {
@@ -1700,12 +1559,12 @@ header {
         margin-top: 0;
         width: 320px;
         padding-top: 0px;
-        padding-bottom: 63px;
+        padding-bottom: 63px
     }
 
     .title_comment {
         width: 320px;
-        margin: 0 auto;
+        margin: 0 auto
     }
 
     .title_comments h1 {
@@ -1714,46 +1573,45 @@ header {
         padding-bottom: 0px;
         letter-spacing: 2px;
         margin: 0 auto;
-        width: 121px;
+        width: 121px
     }
 
     .all_comment {
         width: 345px;
         margin-left: 30px;
         margin: 0;
-        display: flex;
-
+        display: flex
     }
 
     .com {
-        width: 257px;
+        width: 257px
     }
 
     .com p {
         width: 270px;
         font-family: 'Gilroy Light', sans-serif;
         font-weight: 600;
-        font-size: 12px;
+        font-size: 12px
     }
 
     .name_photo {
         display: flex;
         align-items: center;
-        padding-bottom: 15px;
+        padding-bottom: 15px
     }
 
     .name_photo img {
         width: 40px;
         height: 40px;
         padding-right: 10px;
-        border-radius: 100px;
+        border-radius: 100px
     }
 
     .name_photo h1 {
         font-size: 20px;
         font-family: 'Gilroy ExtraBold', sans-serif;
         font-weight: 700;
-        letter-spacing: 1px;
+        letter-spacing: 1px
     }
 
     .comment {
@@ -1761,7 +1619,7 @@ header {
         margin-right: 10px;
         padding: 30px 32px;
         width: 280px;
-        height: 230px;
+        height: 230px
     }
 
     .btn_comment_left {
@@ -1769,7 +1627,7 @@ header {
         margin-top: 150px;
         margin-left: 5px;
         width: 29px;
-        height: 29px;
+        height: 29px
     }
 
     .btn_comment_right {
@@ -1778,79 +1636,75 @@ header {
         margin-left: 313px;
         margin-top: 149px;
         width: 29px;
-        height: 29px;
+        height: 29px
     }
 
     .contacts {
         width: auto;
         margin: 0 auto;
-        height: 300px;
+        height: 300px
     }
 
     .all_contact {
         width: 344px;
         margin: 0 auto;
-        padding: 16px 0px;
+        padding: 16px 0px
     }
 
     .logo_cours {
         width: 343px;
-        margin: 0 auto;
+        margin: 0 auto
     }
 
     .logo_cours img {
         width: 33px;
         height: 33px;
-        padding-right: 10px;
+        padding-right: 10px
     }
-    
+
     .logo_cours h1 {
         font-family: "Afacad Flux", sans-serif;
         color: rgba(246, 246, 246, 1);
         font-size: 24px;
         font-weight: 600;
-        padding-bottom: 13px;
+        padding-bottom: 13px
     }
-    
-
-
-
 
     .about_company {
         color: #F6F6F6;
         width: 150px;
-        padding-right: 16px;
+        padding-right: 16px
     }
-    
+
     .title_about_company {
         font-size: 16px;
         font-family: 'Gilroy Light';
         font-weight: 600;
         padding-bottom: 12px;
-        letter-spacing: 1px;
+        letter-spacing: 1px
     }
-    
+
     .about_company p {
         width: 129px;
         font-size: 10px;
         font-family: 'Gilroy Light';
         font-weight: 600;
-        letter-spacing: 1px;
+        letter-spacing: 1px
     }
 
     .useful {
         color: #F6F6F6;
-        padding-right: 16px;
+        padding-right: 16px
     }
-    
+
     .title_useful {
         font-size: 16px;
         font-family: 'Gilroy Light';
         font-weight: 600;
         padding-bottom: 12px;
-        letter-spacing: 1px;
+        letter-spacing: 1px
     }
-    
+
     .menu_contacts a {
         display: block;
         text-decoration: none;
@@ -1860,12 +1714,11 @@ header {
         padding-bottom: 5px;
         font-family: 'Gilroy Light';
         font-weight: 600;
-        letter-spacing: 1px;
+        letter-spacing: 1px
     }
 
-
     .contact_info {
-        color: #F6F6F6;
+        color: #F6F6F6
     }
 
     .title_contact_info {
@@ -1873,31 +1726,30 @@ header {
         font-family: 'Gilroy Light';
         font-weight: 600;
         padding-bottom: 12px;
-        letter-spacing: 1px;
+        letter-spacing: 1px
     }
-    
+
     .place p {
         font-family: 'Gilroy Light';
         font-weight: 600;
         letter-spacing: 1px;
         font-size: 10px;
         padding-bottom: 9px;
-        width: 93px;
+        width: 93px
     }
-    
+
     .number {
         display: flex;
         align-items: center;
-        padding-bottom: 9px;
+        padding-bottom: 9px
     }
-    
+
     .number img {
         width: 16px;
         height: 16px;
-        padding-right: 5px;
-    
+        padding-right: 5px
     }
-    
+
     .number a {
         text-decoration: none;
         color: #F6F6F6;
@@ -1905,48 +1757,43 @@ header {
         font-weight: 600;
         letter-spacing: 1px;
         font-size: 10px;
-        width: 722px;
+        width: 722px
     }
-    
+
     .icon_email {
         width: 16px;
         height: 16px;
-        padding-right: 5px;
-    
+        padding-right: 5px
     }
-    
+
     .email {
         padding-bottom: 9px;
         width: 93px;
-        display: flex;
+        display: flex
     }
 
-    .email_link_for_mobile{
-        display: block;
+    .email_link_for_mobile {
+        display: block
     }
 
-    .email_link{
-        display: none;
+    .email_link {
+        display: none
     }
-    
+
     .email a {
         font-family: 'Gilroy Light';
         font-weight: 600;
         letter-spacing: 1px;
         font-size: 10px;
         text-decoration: none;
-        color: #F6F6F6;
+        color: #F6F6F6
     }
-    
-    .social_media a :nth-child(1) {
-        padding-right: 9px;
-    }
-    
-    
-    .security p {
-       
-        font-size: 10px;
-    }
-    
 
+    .social_media a:nth-child(1) {
+        padding-right: 9px
+    }
+
+    .security p {
+        font-size: 10px
+    }
 }
