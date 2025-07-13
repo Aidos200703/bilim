@@ -56,10 +56,10 @@
                         <input type="text" placeholder="Фамилия">
                     </div>
                     <div class="input_email">
-                        <input type="email" placeholder="Электронная почта">
+                        <input id="emileInput" type="email" placeholder="Электронная почта">
                     </div>
                     <div class="input_password">
-                        <input type="password" placeholder="Пароль"  id="passwordInput">
+                        <input id="passwordInput" type="password" placeholder="Пароль"  >
                         <span class="toggle-password" onclick="togglePassword()">
                             <img src="img/eye-off-icon.png" id="eyeIcon" alt="Show/Hide">
                         </span>
@@ -79,7 +79,7 @@
                     </div>
 
                     <div class="inter">
-                        <a class="inter_btn" href="#">Зарегистрироваться</a>
+                        <a class="inter_btn" href="" onclick="regest(event)">Зарегистрироваться</a>
                     </div>
 
                     <div class="divider">

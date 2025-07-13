@@ -82,7 +82,7 @@ header {
     border: .1rem solid#222;
     padding: 10px 13px;
     border-radius: 0.3rem;
-    display: none
+    display: none;
 }
 
 .btn_entrance p {
@@ -995,7 +995,8 @@ header {
         padding-top: 10px;
         width: 320px;
         margin: 0 auto;
-        padding-right: 0px
+        padding-right: 0px;
+        
     }
 
     .logo img {
@@ -1016,16 +1017,16 @@ header {
     }
 
     .menu {
-        padding-right: 0px
+        padding-right: 0px;
     }
 
     .menu a {
-        display: block;
+        /* display: block; */
         margin: 0;
         text-align: center;
         font-size: 14px;
         padding-right: 0px;
-        padding-bottom: 0px
+        padding-bottom: 10px
     }
 
     #menu-bar {
@@ -1033,22 +1034,26 @@ header {
         border: 0px
     }
 
-    header.menu {
+
+
+
+    header .menu{
         position: absolute;
-        top: 7%;
-        right: 2rem;
-        border-radius: 0.5rem;
-        width: 190px;
-        background: #fff;
-        padding: 2rem;
-        display: flex;
+        top: 8%;
+        border-radius:0.5rem;
+        border:.3rem solid var(--yellow-clr);
+        box-shadow: var(--box-shadow);
+        width: 160px;
+        background:#fff;
+        padding: 20px 30px;
+        display:flex;
         flex-direction: column;
-        gap: 1.5rem;
-        clip-path: polygon(0 0, 100%0, 100%0, 0 0)
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        margin-left: 120px;
     }
 
-    header.menu.active {
-        clip-path: polygon(0 0, 100%0, 100%100%, 0 100%)
+    header .menu.active{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
     }
 
     .btn_entrance {
@@ -1080,7 +1085,8 @@ header {
         padding-top: 57px;
         margin: 0 auto;
         width: 320px;
-        padding-bottom: 93px
+        padding-bottom: 93px;
+        
     }
 
     .content {
@@ -1110,13 +1116,15 @@ header {
     }
 
     .right_content {
-        width: 320px
+        width: 320px;
+
+        display: none;
     }
 
     .bg_colour_green {
         width: 184px;
         height: 300px;
-        border-radius: 50px
+        border-radius: 50px;
     }
 
     .all_video_elements {
@@ -1132,13 +1140,14 @@ header {
     .left_btn {
         padding-right: 11px;
         width: 29px;
-        height: 29px
+        height: 29px;
     }
 
     .right_btn {
         padding-left: 11px;
         width: 29px;
-        height: 29px
+        height: 29px;
+
     }
 
     .text_front_video {
@@ -1152,7 +1161,8 @@ header {
         width: 320px;
         margin: 0 auto;
         padding-top: 0px;
-        padding-bottom: 66px
+        padding-bottom: 66px;
+        
     }
 
     .top_process {
@@ -1210,7 +1220,8 @@ header {
 
     .course {
         width: 320px;
-        margin: 0 auto
+        margin: 0 auto;
+        
     }
 
     .cou {
@@ -1242,7 +1253,8 @@ header {
         width: 320px;
         margin: 0 auto;
         padding-left: 0px;
-        padding-bottom: 50px
+        padding-bottom: 50px;
+        
     }
 
     .special_subject {
@@ -1296,11 +1308,11 @@ header {
     }
 
     .cards {
-        padding-bottom: 66px
+        padding-bottom: 66px;
     }
 
     .bg_card {
-        width: 320px
+        width: 320px;
     }
 
     .bg_card {
@@ -1351,7 +1363,9 @@ header {
     .teachers {
         width: 320px;
         margin: 0 auto;
-        padding-bottom: 0px
+        padding-bottom: 0px;
+
+        display: none;
     }
 
     .title_teachers {
@@ -1396,7 +1410,7 @@ header {
         margin-right: 17px;
         margin-bottom: 10px;
         margin-left: 0px;
-        margin-top: 10px
+        margin-top: 10px;
     }
 
     .card_teacher img {
@@ -1422,7 +1436,7 @@ header {
         position: absolute;
         margin-left: 260px;
         width: 29px;
-        height: 29px
+        height: 29px;
     }
 
     .name-teacher {
@@ -1468,7 +1482,7 @@ header {
     .trial {
         position: absolute;
         left: 27px;
-        top: 3182px;
+        top: 2182px;
         align-items: center;
         padding: 0px 0px;
         display: block;
@@ -1476,13 +1490,17 @@ header {
         height: 530px;
         border-radius: 50px;
         width: 324px;
-        margin: 0 auto
+        margin: 0 auto;
+/* dsdddddddddddddddddddddddddddddddddddddddddddddddddd */
+        /* display: none */
     }
 
     .trial_lesson {
-        width: 1470px;
+        width: 399px;
         margin: 0 auto;
-        margin-bottom: 123px
+        margin-bottom: 123px;
+/* dddddddddddddddddddddddddddddddddddddddddddddddddddddddddd */
+        /* display: none */
     }
 
     .left_blok {
@@ -1559,7 +1577,7 @@ header {
         margin-top: 0;
         width: 320px;
         padding-top: 0px;
-        padding-bottom: 63px
+        padding-bottom: 63px;
     }
 
     .title_comment {
@@ -1619,7 +1637,7 @@ header {
         margin-right: 10px;
         padding: 30px 32px;
         width: 280px;
-        height: 230px
+        height: 230px;
     }
 
     .btn_comment_left {
@@ -1627,7 +1645,8 @@ header {
         margin-top: 150px;
         margin-left: 5px;
         width: 29px;
-        height: 29px
+        height: 29px;
+
     }
 
     .btn_comment_right {
@@ -1636,7 +1655,8 @@ header {
         margin-left: 313px;
         margin-top: 149px;
         width: 29px;
-        height: 29px
+        height: 29px;
+
     }
 
     .contacts {
@@ -1757,7 +1777,7 @@ header {
         font-weight: 600;
         letter-spacing: 1px;
         font-size: 10px;
-        width: 722px
+        width: 88px
     }
 
     .icon_email {

@@ -1,3 +1,15 @@
+
+var menu = document.getElementById('menu-bar');
+var navbar = document.getElementById('menu');
+
+menu.onclick = ()=>{  
+  menu.classList.toggle('fa-times');
+  navbar.classList.toggle('active');
+}
+
+
+
+
 window.onload = function() { 
             const middleCard = document.getElementById("middleCard");
             middleCard.scrollIntoView({ behavior: "smooth", block: "center", inline: "center" });

@@ -1,3 +1,4 @@
+
 function togglePassword() {
     const input = document.getElementById('passwordInput');
     const icon = document.getElementById('eyeIcon');
@@ -9,4 +10,5 @@ function togglePassword() {
         icon.src = 'img/eye-off-icon.png'; // Жабық көз иконкасы
     }
 }
+
 
